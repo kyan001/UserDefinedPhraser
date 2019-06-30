@@ -9,8 +9,8 @@ from bs4 import BeautifulSoup
         <div class="container">
             ...
             <div id='start-with-i' class='row'>
-                <div class='col-6 col-md-4 col-lg-3 col-xl-2'>
-                    <div class='p-2 m-2 border text-center rounded'>
+                <div class='col-3 col-md-2'>
+                    <div class='py-1 mt-1 text-center rounded border'>
                         <mark class="monofont">inum</mark>
                         <br>
                         <span>№</span>
@@ -72,8 +72,8 @@ class HtmlUserPhraser:
                 row.append(header)
                 phrases_div.append(row)
             col = soup.new_tag('div')
-            col['class'] = 'col-6 col-md-4 col-lg-3 col-xl-2'
-            phrs_item = soup.new_tag('div', attrs={'class': 'p-2 m-2 border text-center rounded'})
+            col['class'] = 'col-3 col-md-2'
+            phrs_item = soup.new_tag('div', attrs={'class': 'py-1 mt-1 text-center rounded border'})
             phrs_shortcut = soup.new_tag('mark', attrs={'class': 'monofont'})
             phrs_shortcut.string = itm['shortcut']
             phrs_br = soup.new_tag('br')
