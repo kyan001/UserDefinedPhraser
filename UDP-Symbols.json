@@ -1,0 +1,182 @@
+[
+    {
+        "shortcut": "iapple",
+        "phrase": ""
+    },
+    {
+        "shortcut": "ishift",
+        "phrase": "⇧"
+    },
+    {
+        "shortcut": "ictrl",
+        "phrase": "⌃"
+    },
+    {
+        "shortcut": "iopt",
+        "phrase": "⌥"
+    },
+    {
+        "shortcut": "icmd",
+        "phrase": "⌘"
+    },
+    {
+        "shortcut": "iesc",
+        "phrase": "⎋"
+    },
+    {
+        "shortcut": "icaps",
+        "phrase": "⇪"
+    },
+    {
+        "shortcut": "idel",
+        "phrase": "⌫"
+    },
+    {
+        "shortcut": "iret",
+        "phrase": "↩︎"
+    },
+    {
+        "shortcut": "ispace",
+        "phrase": "␣"
+    },
+    {
+        "shortcut": "itab",
+        "phrase": "⇥"
+    },
+    {
+        "shortcut": "icut",
+        "phrase": "✄"
+    },
+    {
+        "shortcut": "icheck",
+        "phrase": "✕"
+    },
+    {
+        "shortcut": "icheck",
+        "phrase": "☒"
+    },
+    {
+        "shortcut": "icheck",
+        "phrase": "☑"
+    },
+    {
+        "shortcut": "icheck",
+        "phrase": "✗"
+    },
+    {
+        "shortcut": "icheck",
+        "phrase": "×"
+    },
+    {
+        "shortcut": "icheck",
+        "phrase": "✓"
+    },
+    {
+        "shortcut": "isquare",
+        "phrase": "▢"
+    },
+    {
+        "shortcut": "icircle",
+        "phrase": "◯"
+    },
+    {
+        "shortcut": "itri",
+        "phrase": "△"
+    },
+    {
+        "shortcut": "imale",
+        "phrase": "♂"
+    },
+    {
+        "shortcut": "ifemale",
+        "phrase": "♀"
+    },
+    {
+        "shortcut": "icopyright",
+        "phrase": "©"
+    },
+    {
+        "shortcut": "itel",
+        "phrase": "℡"
+    },
+    {
+        "shortcut": "itm",
+        "phrase": "™"
+    },
+    {
+        "shortcut": "ism",
+        "phrase": "℠"
+    },
+    {
+        "shortcut": "idagger",
+        "phrase": "†"
+    },
+    {
+        "shortcut": "idegree",
+        "phrase": "°"
+    },
+    {
+        "shortcut": "ilove",
+        "phrase": "❤"
+    },
+    {
+        "shortcut": "imusic",
+        "phrase": "♪"
+    },
+    {
+        "shortcut": "imusic",
+        "phrase": "♬"
+    },
+    {
+        "shortcut": "ipara",
+        "phrase": "¶"
+    },
+    {
+        "shortcut": "iparty",
+        "phrase": "☭"
+    },
+    {
+        "shortcut": "istar",
+        "phrase": "★"
+    },
+    {
+        "shortcut": "itaichi",
+        "phrase": "☯"
+    },
+    {
+        "shortcut": "izkh",
+        "phrase": "「"
+    },
+    {
+        "shortcut": "izkh",
+        "phrase": "₍"
+    },
+    {
+        "shortcut": "izkh",
+        "phrase": "⁽"
+    },
+    {
+        "shortcut": "iykh",
+        "phrase": "」"
+    },
+    {
+        "shortcut": "iykh",
+        "phrase": "₎"
+    },
+    {
+        "shortcut": "iykh",
+        "phrase": "⁾"
+    },
+    {
+        "shortcut": "isharp",
+        "phrase": "♯"
+    },
+    {
+        "shortcut": "iflat",
+        "phrase": "♭"
+    },
+    {
+        "shortcut": "irmb",
+        "phrase": "¥"
+    }
+]

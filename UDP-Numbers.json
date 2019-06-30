@@ -1,0 +1,218 @@
+[
+    {
+        "shortcut": "izero",
+        "phrase": "⓪"
+    },
+    {
+        "shortcut": "izero",
+        "phrase": "₀"
+    },
+    {
+        "shortcut": "izero",
+        "phrase": "⁰"
+    },
+    {
+        "shortcut": "ione",
+        "phrase": "①"
+    },
+    {
+        "shortcut": "ione",
+        "phrase": "₁"
+    },
+    {
+        "shortcut": "ione",
+        "phrase": "¹"
+    },
+    {
+        "shortcut": "itwo",
+        "phrase": "②"
+    },
+    {
+        "shortcut": "itwo",
+        "phrase": "₂"
+    },
+    {
+        "shortcut": "itwo",
+        "phrase": "²"
+    },
+    {
+        "shortcut": "ithree",
+        "phrase": "③"
+    },
+    {
+        "shortcut": "ithree",
+        "phrase": "₃"
+    },
+    {
+        "shortcut": "ithree",
+        "phrase": "³"
+    },
+    {
+        "shortcut": "ifour",
+        "phrase": "④"
+    },
+    {
+        "shortcut": "ifour",
+        "phrase": "₄"
+    },
+    {
+        "shortcut": "ifour",
+        "phrase": "⁴"
+    },
+    {
+        "shortcut": "ifive",
+        "phrase": "⑤"
+    },
+    {
+        "shortcut": "ifive",
+        "phrase": "₅"
+    },
+    {
+        "shortcut": "ifive",
+        "phrase": "⁵"
+    },
+    {
+        "shortcut": "isix",
+        "phrase": "⑥"
+    },
+    {
+        "shortcut": "isix",
+        "phrase": "₆"
+    },
+    {
+        "shortcut": "isix",
+        "phrase": "⁶"
+    },
+    {
+        "shortcut": "iseven",
+        "phrase": "⑦"
+    },
+    {
+        "shortcut": "iseven",
+        "phrase": "₇"
+    },
+    {
+        "shortcut": "iseven",
+        "phrase": "⁷"
+    },
+    {
+        "shortcut": "ieight",
+        "phrase": "⑧"
+    },
+    {
+        "shortcut": "ieight",
+        "phrase": "₈"
+    },
+    {
+        "shortcut": "ieight",
+        "phrase": "⁸"
+    },
+    {
+        "shortcut": "inine",
+        "phrase": "⑨"
+    },
+    {
+        "shortcut": "inine",
+        "phrase": "₉"
+    },
+    {
+        "shortcut": "inine",
+        "phrase": "⁹"
+    },
+    {
+        "shortcut": "iinf",
+        "phrase": "∞"
+    },
+    {
+        "shortcut": "iplus",
+        "phrase": "₊"
+    },
+    {
+        "shortcut": "iplus",
+        "phrase": "⁺"
+    },
+    {
+        "shortcut": "iminus",
+        "phrase": "₋"
+    },
+    {
+        "shortcut": "iminus",
+        "phrase": "⁻"
+    },
+    {
+        "shortcut": "iequal",
+        "phrase": "₌"
+    },
+    {
+        "shortcut": "iequal",
+        "phrase": "⁼"
+    },
+    {
+        "shortcut": "inotequal",
+        "phrase": "≠"
+    },
+    {
+        "shortcut": "idiv",
+        "phrase": "÷"
+    },
+    {
+        "shortcut": "inum",
+        "phrase": "№"
+    },
+    {
+        "shortcut": "ixi",
+        "phrase": "ᵢ"
+    },
+    {
+        "shortcut": "ixi",
+        "phrase": "ⁱ"
+    },
+    {
+        "shortcut": "ixn",
+        "phrase": "ⁿ"
+    },
+    {
+        "shortcut": "ixa",
+        "phrase": "ₐ"
+    },
+    {
+        "shortcut": "ixa",
+        "phrase": "ᵃ"
+    },
+    {
+        "shortcut": "ixe",
+        "phrase": "ₑ"
+    },
+    {
+        "shortcut": "ixe",
+        "phrase": "ᵉ"
+    },
+    {
+        "shortcut": "ixe",
+        "phrase": "ₔ"
+    },
+    {
+        "shortcut": "ixo",
+        "phrase": "ₒ"
+    },
+    {
+        "shortcut": "ixo",
+        "phrase": "ᵒ"
+    },
+    {
+        "shortcut": "ixx",
+        "phrase": "ₓ"
+    },
+    {
+        "shortcut": "ixx",
+        "phrase": "ˣ"
+    },
+    {
+        "shortcut": "ixk",
+        "phrase": "ᵏ"
+    },
+    {
+        "shortcut": "ixj",
+        "phrase": "ʲ"
+    }
+]
