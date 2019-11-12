@@ -104,6 +104,6 @@ venv.bak/
 .mypy_cache/
 
 # Builded Files
-GeneratedUDP/
-!GeneratedUDP/.gitkeep
+GeneratedUDP/*
+!**/.gitkeep
 .DS_Store
