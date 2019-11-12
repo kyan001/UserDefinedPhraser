@@ -108,6 +108,10 @@
         "phrase": "℠"
     },
     {
+        "shortcut": "ireg",
+        "phrase": "®"
+    },
+    {
         "shortcut": "idagger",
         "phrase": "†"
     },
