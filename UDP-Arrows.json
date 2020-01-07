@@ -8,6 +8,14 @@
         "phrase": "▲"
     },
     {
+        "shortcut": "iup",
+        "phrase": "↖"
+    },
+    {
+        "shortcut": "iup",
+        "phrase": "↗"
+    },
+    {
         "shortcut": "idown",
         "phrase": "↓"
     },
@@ -15,6 +23,14 @@
         "shortcut": "idown",
         "phrase": "▼"
     },
+    {
+        "shortcut": "idown",
+        "phrase": "↙"
+    },
+    {
+        "shortcut": "idown",
+        "phrase": "↘"
+    }
     {
         "shortcut": "ileft",
         "phrase": "←"
@@ -31,20 +47,4 @@
         "shortcut": "iright",
         "phrase": "▶"
     },
-    {
-        "shortcut": "ileftup",
-        "phrase": "↖"
-    },
-    {
-        "shortcut": "irightup",
-        "phrase": "↗"
-    },
-    {
-        "shortcut": "ileftdown",
-        "phrase": "↙"
-    },
-    {
-        "shortcut": "irightdown",
-        "phrase": "↘"
-    }
 ]

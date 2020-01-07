@@ -96,6 +96,14 @@
         "phrase": "©"
     },
     {
+        "shortcut": "ireg",
+        "phrase": "®"
+    },
+    {
+        "shortcut": "iphono",
+        "phrase": "Ⓟ"
+    },
+    {
         "shortcut": "itel",
         "phrase": "℡"
     },
@@ -106,10 +114,6 @@
     {
         "shortcut": "ism",
         "phrase": "℠"
-    },
-    {
-        "shortcut": "ireg",
-        "phrase": "®"
     },
     {
         "shortcut": "idagger",
@@ -134,6 +138,10 @@
     {
         "shortcut": "ipara",
         "phrase": "¶"
+    },
+    {
+        "shortcut": "isec",
+        "phrase": "§"
     },
     {
         "shortcut": "iparty",
@@ -182,5 +190,10 @@
     {
         "shortcut": "irmb",
         "phrase": "¥"
+    },
+    {
+        "shortcut": "ilink",
+        "phrase": "[](🔗)"
     }
+
 ]
