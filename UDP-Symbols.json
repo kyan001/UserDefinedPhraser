@@ -49,27 +49,31 @@
     },
     {
         "shortcut": "icheck",
+        "phrase": "✓"
+    },
+    {
+        "shortcut": "icheck",
+        "phrase": "✔"
+    },
+    {
+        "shortcut": "icheck",
         "phrase": "✕"
     },
     {
         "shortcut": "icheck",
-        "phrase": "☒"
+        "phrase": "✖"
     },
     {
-        "shortcut": "icheck",
+        "shortcut": "ibox",
+        "phrase": "☐"
+    },
+    {
+        "shortcut": "ibox",
         "phrase": "☑"
     },
     {
-        "shortcut": "icheck",
-        "phrase": "✗"
-    },
-    {
-        "shortcut": "icheck",
-        "phrase": "×"
-    },
-    {
-        "shortcut": "icheck",
-        "phrase": "✓"
+        "shortcut": "ibox",
+        "phrase": "☒"
     },
     {
         "shortcut": "isquare",
@@ -77,11 +81,11 @@
     },
     {
         "shortcut": "icircle",
-        "phrase": "◯"
+        "phrase": "⭘"
     },
     {
         "shortcut": "itri",
-        "phrase": "△"
+        "phrase": "🛆"
     },
     {
         "shortcut": "imale",

@@ -152,6 +152,14 @@
         "phrase": "≠"
     },
     {
+        "shortcut": "itimes",
+        "phrase": "×"
+    },
+    {
+        "shortcut": "itimes",
+        "phrase": "˟"
+    },
+    {
         "shortcut": "idiv",
         "phrase": "÷"
     },
