@@ -45,6 +45,7 @@ def get_project_filepaths(filenames: list) -> list:
 
 
 def load_phrases_from_json(filename: str) -> list:
+    cit.info(f"Parsing {filename}")
     jup = JsonUserPhraser()
     jup.from_file(filename)
     return jup.phrases

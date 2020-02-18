@@ -77,15 +77,15 @@
     },
     {
         "shortcut": "isquare",
-        "phrase": "▢"
+        "phrase": "□"
     },
     {
         "shortcut": "icircle",
-        "phrase": "⭘"
+        "phrase": "○"
     },
     {
-        "shortcut": "itri",
-        "phrase": "🛆"
+        "shortcut": "itriangle",
+        "phrase": "△"
     },
     {
         "shortcut": "imale",
@@ -197,7 +197,7 @@
     },
     {
         "shortcut": "ilink",
-        "phrase": "[](🔗)"
+        "phrase": "[]⁽🔗⁾"
     }
 
 ]
