@@ -1,5 +1,9 @@
 [
     {
+        "shortcut": "inul",
+        "phrase": "␀"
+    },
+    {
         "shortcut": "izero",
         "phrase": "⓪"
     },

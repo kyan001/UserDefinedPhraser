@@ -4,46 +4,6 @@
         "phrase": ""
     },
     {
-        "shortcut": "ishift",
-        "phrase": "⇧"
-    },
-    {
-        "shortcut": "ictrl",
-        "phrase": "⌃"
-    },
-    {
-        "shortcut": "iopt",
-        "phrase": "⌥"
-    },
-    {
-        "shortcut": "icmd",
-        "phrase": "⌘"
-    },
-    {
-        "shortcut": "iesc",
-        "phrase": "⎋"
-    },
-    {
-        "shortcut": "icaps",
-        "phrase": "⇪"
-    },
-    {
-        "shortcut": "idel",
-        "phrase": "⌫"
-    },
-    {
-        "shortcut": "iret",
-        "phrase": "↩︎"
-    },
-    {
-        "shortcut": "ispace",
-        "phrase": "␣"
-    },
-    {
-        "shortcut": "itab",
-        "phrase": "⇥"
-    },
-    {
         "shortcut": "icut",
         "phrase": "✄"
     },
@@ -199,5 +159,4 @@
         "shortcut": "ilink",
         "phrase": "🔗"
     }
-
 ]
