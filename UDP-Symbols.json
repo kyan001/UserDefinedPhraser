@@ -116,6 +116,10 @@
         "phrase": "★"
     },
     {
+        "shortcut": "istar",
+        "phrase": "☆"
+    },
+    {
         "shortcut": "itaichi",
         "phrase": "☯"
     },
