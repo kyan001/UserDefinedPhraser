@@ -3,17 +3,10 @@ import os
 from bs4 import BeautifulSoup
 from bs4 import Doctype
 
+from .phraser import Phraser
 
-class MacUserPhraser:
-    def __init__(self, phrases: list = []):
-        self.phrases = phrases  # save all the "phrase & shortcut".
 
-    def __str__(self):
-        return str(self.phrases)
-
-    def __list__(self):
-        return self.phrases
-
+class MacPhraser(Phraser):
     def from_file(self, filepath: str):
         """ Read file into objects."""
         if not filepath:

@@ -2,6 +2,8 @@ import os
 
 from bs4 import BeautifulSoup
 
+from .phraser import Phraser
+
 """.html format:
 <html>
     <head>...</head>
@@ -24,21 +26,13 @@ from bs4 import BeautifulSoup
 """
 
 
-class HtmlUserPhraser:
-    def __init__(self, phrases: list = []):
-        self.phrases = phrases  # save all the "phrase & shortcut".
-
-    def __str__(self):
-        return str(self.phrases)
-
-    def __list__(self):
-        return self.phrases
-
+class HtmlPhraser(Phraser):
     def from_file(self, filepath: str):
+        # TODO
         """ Read file into objects."""
         if not filepath:
             raise Exception("No filepath provided")
-        pass  # TODO
+        pass
 
     def to_file(self, filepath: str):
         if not filepath:
@@ -57,7 +51,7 @@ class HtmlUserPhraser:
 
     def to_html(self):
         dirpath = os.path.dirname(os.path.abspath(__file__))
-        soup = BeautifulSoup(open(os.path.join(dirpath, 'htmluserphraser.html')), 'html.parser')
+        soup = BeautifulSoup(open(os.path.join(dirpath, 'htmlphraser_tpl.html')), 'html.parser')
         phrases_div = soup.html.body.find(id='phrases')
         for itm in self.phrases:
             row_attrs = {

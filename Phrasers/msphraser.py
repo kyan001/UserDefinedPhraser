@@ -4,6 +4,8 @@ import tempfile
 import struct
 from datetime import datetime
 
+from .phraser import Phraser
+
 # win10 1703
 #           proto8                   unknown_X   version
 # 00000000  6d 73 63 68 78 75 64 70  02 00 60 00 01 00 00 00  |mschxudp..`.....|
@@ -52,16 +54,7 @@ from datetime import datetime
 # 0000007e
 
 
-class MsUserPhraser:
-    def __init__(self, phrases: list = []):
-        self.phrases = phrases
-
-    def __str__(self):
-        return str(self.phrases)
-
-    def __list__(self):
-        return self.phrases
-
+class MsPhraser(Phraser):
     def from_file(self, filepath: str):
         if not filepath:
             raise Exception("No filepath provided")
