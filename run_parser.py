@@ -1,7 +1,11 @@
 import os
 import functools
+import sys
+import subprocess
+import platform
 
 import consoleiotools as cit
+
 from Phrasers.macphraser import MacPhraser
 from Phrasers.msphraser import MsPhraser
 from Phrasers.jsonphraser import JsonPhraser
@@ -71,21 +75,36 @@ def generate_UDP_file(Phraser: object, output: str, phrases: list):
     cit.info("'{o}' is generated, {length} phrases.".format(o=output, length=len(phraser.phrases)))
 
 
+def show_file(path: str):
+    if sys.platform.startswith("win"):
+        os.startfile(path)
+    elif platform.system() == "Darwin":
+        subprocess.Popen(["open", path])
+    else:
+        subprocess.Popen(["xdg-open", path])
+
+
 if __name__ == "__main__":
-    phrases_filenames = phrases_filenames()
+    cit.info("Output Folder: {}".format(GENERATED_DIR))
+    cit.info("Phrases File location: {}".format(PHRASES_DIR))
     deco = "\n| * "
-    cit.info("JSON file list:{deco}{data}".format(deco=deco, data=deco.join(phrases_filenames)))
+    phrases_filenames = phrases_filenames()
+    cit.info("Phrases JSON Files:{deco}{data}".format(deco=deco, data=deco.join(phrases_filenames)))
     phrases_paths = [os.path.join(PHRASES_DIR, fn) for fn in phrases_filenames]
     phrases = load_all_phrases(phrases_paths)
     cit.ask("Which one you wanna convert?")
     phrsr_key = cit.get_choice(list(AVAIL_PHRASER.keys()) + ['** ALL **'])
     if phrsr_key == '** ALL **':
-        for key, phraser_set in AVAIL_PHRASER.items():
+        for key, phraselet in AVAIL_PHRASER.items():
             cit.title("Generating {}".format(key))
-            generate_UDP_file(Phraser=phraser_set['phraser'], output=phraser_set['output'], phrases=phrases)
+            generate_UDP_file(Phraser=phraselet['phraser'], output=phraselet['output'], phrases=phrases)
             cit.end()
     else:
-        phraser_set = AVAIL_PHRASER[phrsr_key]
+        phraselet = AVAIL_PHRASER[phrsr_key]
         cit.title("Generating {}".format(phrsr_key))
-        generate_UDP_file(Phraser=phraser_set['phraser'], output=phraser_set['output'], phrases=phrases)
+        generate_UDP_file(Phraser=phraselet['phraser'], output=phraselet['output'], phrases=phrases)
         cit.end()
+    cit.ask("Open Output Folder?")
+    is_open = cit.get_choice(('Yes', 'No'))
+    if is_open == 'Yes':
+        show_file(GENERATED_DIR)
