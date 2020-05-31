@@ -1,7 +1,7 @@
 # UserDefinedPhraser
-> Doc Version: 1.0.0-20190630
+> Doc Version: 1.1.1-20200531
 
-🇺🇸English | [🇨🇳简体中文](https://github.com/kyan001/UserDefinedPhraser/blob/master/README-CN.md)
+🇺🇸 English | [🇨🇳 简体中文](https://github.com/kyan001/UserDefinedPhraser/blob/master/README-CN.md)
 
 * Convert pre-defined User Defined Phrases(UDP) to supported format for Win10 Pinyin IME, macOS Pinyin IME (+iOS/iPadOS), QQPinyin. Also generate HTML and JSON file for further usage.
 
@@ -12,23 +12,26 @@
 
 ```py
 # Quick Start
-python3 UDPParser.py
+python3 run_parser.py
 ```
 
 ```sh
-|-- UDPTools/  # Parser classes for decode from target format to python dict and encode python dict to target format.
-    |-- macuserphraser.py  # Parse macOS `.plist` file.
-    |-- jsonuserphraser.py  # Parse `.json` file.
-    |-- msuserphraser.py  # Parse Win10 Pinyin IME `.dat` file.
-    |-- txtuserphraser.py  # Parse QQPinyin `.ini` file.
-    |-- htmluserpharser.py  # Generate `.html` file.
+|-- Phrasers/  # Parser classes for decode from target format to python dict and encode python dict to target format.
+    |-- phraser.py  # Base class for all the phraser classes.
+    |-- macphraser.py  # Parse macOS `.plist` file.
+    |-- jsonphraser.py  # Parse `.json` file.
+    |-- msphraser.py  # Parse Win10 Pinyin IME `.dat` file.
+    |-- txtphraser.py  # Parse QQPinyin `.ini` file.
+    |-- htmlpharser.py  # Generate `.html` file.
+    |-- htmlphraser_tpl.py  # Template for `.html` file generation.
+|-- Phrases/  # User Defined Phrases in JSON format, as the input to conversions.
+    |-- UDP-*.json
 |-- GeneratedUDP/  # This Folder holds the generated files. You can delete these files any time, they are not important.
-|-- UDP-*.json  # User Defined Phrases in JSON format, as the input to conversions.
-|-- UDPParser.py  # Main entry of program. Convert `.json` files to other formats.
+|-- run_parser.py  # Main entry of program. Convert `.json` files to other formats.
 ```
 
 * All Python Dict and JSON format is: `{ 'phrase': "<PHRASE>", 'shortcut': "<SHORTCUT>" }`
-* `*UserPhraser` classes include `to_file()`, `from_file()`, `to_format*()`, `from_format*()` functions. They are used for read/write files and read/write formatted strings.
+* `*Phraser` classes include `to_file()`, `from_file()`, `to_format*()`, `from_format*()` functions. They are used for read/write files and read/write formatted strings.
 
 ************
 
@@ -138,10 +141,10 @@ python3 UDPParser.py
 
 ### Add
 1. QQPinyin → Settings → Lexicon → User Defined Phrases::Settings
-2. Click "Import", select `*.ini` file.
+2. Click "Import", select `*.txt` file.
 
 ### Format
-* `.ini` format
+* `.txt` format
 
 ## File Example
 ```ini

@@ -1,7 +1,7 @@
 # UserDefinedPhraser
-> Doc Version: 1.0.0-20190630
+> Doc Version: 1.1.1-20200531
 
-[🇺🇸English](https://github.com/kyan001/UserDefinedPhraser/blob/master/README.md) | 🇨🇳简体中文
+[🇺🇸 English](https://github.com/kyan001/UserDefinedPhraser/blob/master/README.md) | 🇨🇳 简体中文
 
 * 将预定义的用户自定义短语（UDP）转化为可被 Win10 微软拼音、macOS 拼音输入法（+iOS/iPadOS）、QQ 拼音等输入法使用的导入文件。还可以生成 HTML 用于查看和 JSON 文件用于进一步处理。
 
@@ -12,23 +12,26 @@
 
 ```py
 # 快速开始
-python3 UDPParser.py
+python3 run_parser.py
 ```
 
 ```sh
-|-- UDPTools/  # 将目标格式解析为 python 字典，并将 python 字典转为目标格式。
-    |-- macuserphraser.py  # 负责 macOS `.plist` 文件的解析。
-    |-- jsonuserphraser.py  # 负责 json 格式文件的解析。
-    |-- msuserphraser.py  # 负责 Win10 拼音输入法 `.dat` 文件的解析。
-    |-- txtuserphraser.py  # 负责 QQ 拼音 `.ini` 文件的解析。
-    |-- htmluserpharser.py  # 负责生成 `.html` 文件。
+|-- Phrasers/  # 将目标格式解析为 python 字典，并将 python 字典转为目标格式。
+    |-- phraser.py  # 所有 Phraser 类的基类
+    |-- macphraser.py  # 负责 macOS `.plist` 文件的解析。
+    |-- jsonphraser.py  # 负责 json 格式文件的解析。
+    |-- msphraser.py  # 负责 Win10 拼音输入法 `.dat` 文件的解析。
+    |-- txtphraser.py  # 负责 QQ 拼音 `.ini` 文件的解析。
+    |-- htmlphraser.py  # 负责生成 `.html` 文件。
+    |-- htmlphraser_tpl.py  # 负责为生成的 `.html` 文件提供模板
+|-- Phrases/  # 用户定义的短语，这些文件是所有生成文件的根本。
+    |-- UDP-*.json
 |-- GeneratedUDP/  # 此目录存放生成的文件，里面的文件可以随时删除。
-|-- UDP-*.json  # 用户定义的短语，这些文件是所有生成文件的根本。
-|-- UDPParser.py  # 程序总入口，负责将 `.json` 的格式转为其他格式。
+|-- run_parser.py  # 程序总入口，负责将 `.json` 的格式转为其他格式。
 ```
 
 * 所有 Python Dict 和 JSON 的格式均为：`{ 'phrase': "<PHRASE>", 'shortcut': "<SHORTCUT>" }`
-* `*UserPhraser` 类都包含了 `to_file()`，`from_file()`，`to_format*()`，`from_format*()` 几种函数。分别用于生成、读取文件，以及生成、读取对应格式的字符串。
+* `*Phraser` 类都包含了 `to_file()`，`from_file()`，`to_format*()`，`from_format*()` 几种函数。分别用于生成、读取文件，以及生成、读取对应格式的字符串。
 
 ************
 
@@ -137,10 +140,10 @@ python3 UDPParser.py
 
 ### 添加
 1. QQ输入法 → 属性设置 → 词库 → 自定义短语::设置
-2. 点 “导入”，选中某个 `*.ini` 文件。
+2. 点 “导入”，选中某个 `*.txt` 文件。
 
 ### 格式
-* `.ini` 文件
+* `.txt` 文件
 
 ## 文件范例
 ```ini
