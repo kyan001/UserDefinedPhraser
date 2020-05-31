@@ -136,6 +136,10 @@
         "phrase": "⁽"
     },
     {
+        "shortcut": "izkh",
+        "phrase": "⦋"
+    },
+    {
         "shortcut": "iykh",
         "phrase": "」"
     },
@@ -146,6 +150,10 @@
     {
         "shortcut": "iykh",
         "phrase": "⁾"
+    },
+    {
+        "shortcut": "iykh",
+        "phrase": "⦌"
     },
     {
         "shortcut": "isharp",
