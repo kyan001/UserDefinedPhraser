@@ -174,5 +174,13 @@
     {
         "shortcut": "ilink",
         "phrase": "🔗"
+    },
+    {
+        "shortcut": "ilink",
+        "phrase": "⛓️"
+    },
+    {
+        "shortcut": "ianchor",
+        "phrase": "⚓"
     }
 ]
