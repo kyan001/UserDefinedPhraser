@@ -1,7 +1,7 @@
 # UserDefinedPhraser
 > Doc Version: 1.1.1-20200531
 
-[🇺🇸 English](https://github.com/kyan001/UserDefinedPhraser/blob/master/README.md) | 🇨🇳 简体中文
+[🇺🇸 English](README.md) | 🇨🇳 简体中文
 
 * 将预定义的用户自定义短语（UDP）转化为可被 Win10 微软拼音、macOS 拼音输入法（+iOS/iPadOS）、QQ 拼音等输入法使用的导入文件。还可以生成 HTML 用于查看和 JSON 文件用于进一步处理。
 

@@ -1,7 +1,7 @@
 # UserDefinedPhraser
 > Doc Version: 1.1.1-20200531
 
-🇺🇸 English | [🇨🇳 简体中文](https://github.com/kyan001/UserDefinedPhraser/blob/master/README-CN.md)
+🇺🇸 English | [🇨🇳 简体中文](README-CN.md)
 
 * Convert pre-defined User Defined Phrases(UDP) to supported format for Win10 Pinyin IME, macOS Pinyin IME (+iOS/iPadOS), QQPinyin. Also generate HTML and JSON file for further usage.
 
