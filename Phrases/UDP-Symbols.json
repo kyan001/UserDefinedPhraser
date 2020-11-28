@@ -36,6 +36,10 @@
         "phrase": "☒"
     },
     {
+        "shortcut": "ibox",
+        "phrase": "✗"
+    },
+    {
         "shortcut": "ibar",
         "phrase": "｜"
     },
@@ -182,5 +186,17 @@
     {
         "shortcut": "ianchor",
         "phrase": "⚓"
+    },
+    {
+        "shortcut": "inote",
+        "phrase": "🗒️"
+    },
+    {
+        "shortcut": "imemo",
+        "phrase": "📝"
+    },
+    {
+        "shortcut": "ipage",
+        "phrase": "📄"
     }
 ]
