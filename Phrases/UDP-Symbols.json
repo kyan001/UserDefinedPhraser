@@ -177,11 +177,11 @@
     },
     {
         "shortcut": "ilink",
-        "phrase": "🔗"
+        "phrase": "⛓️"
     },
     {
         "shortcut": "ilink",
-        "phrase": "⛓️"
+        "phrase": "🔗"
     },
     {
         "shortcut": "ianchor",
@@ -198,5 +198,9 @@
     {
         "shortcut": "ipage",
         "phrase": "📄"
+    },
+    {
+        "shortcut": "imouse",
+        "phrase": "🖱️"
     }
 ]
