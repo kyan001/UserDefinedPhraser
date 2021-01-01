@@ -99,8 +99,7 @@ class MschxudpBuilder(object):
             self.unknown = 0x00000000
             self.phrase_magic = 0x00080008
         else:
-            print("ERROR unsurport version")
-            raise
+            raise Exception("Version Error: unsupported version {}".format(phrase_magic))
 
     def add_phrase(self, shortcut: str, phrase: str, candidate: tuple = (1, 6)):
         self.phrases.append({
@@ -128,6 +127,8 @@ class MschxudpBuilder(object):
                 elif self.phrase_magic == 0x00080008:
                     offset = 0x0008 + len(shortcut_utf16)
                     fl.write(struct.pack('IHBB', self.phrase_magic, offset, itm['candidate'][0], itm['candidate'][1]))
+                else:
+                    raise Exception("Version Error: unsupported version {}".format(self.phrase_magic))
                 fl.write(shortcut_utf16)
                 fl.write(phrase_utf16)
                 phrase_offset += offset + len(phrase_utf16)
@@ -143,6 +144,8 @@ class MschxudpBuilder(object):
                 fl.write(struct.pack('IIIIIII', self.unknown, self.version, self.phrase_offset_start, phrase_start, phrase_end, phrase_count, timestamp))
             elif self.phrase_magic == 0x00080008:
                 fl.write(struct.pack('IIIIIII', self.version, self.phrase_offset_start, phrase_start, phrase_end, phrase_count, self.unknown, timestamp))
+            else:
+                raise Exception("Version Error: unsupported version {}".format(self.phrase_magic))
             assert fl.tell() == 0x24
 
             fl.seek(self.phrase_offset_start, SEEK_SET)
