@@ -202,5 +202,9 @@
     {
         "shortcut": "imouse",
         "phrase": "🖱️"
+    },
+    {
+        "shortcut": "idc",
+        "phrase": "⎓"
     }
 ]
