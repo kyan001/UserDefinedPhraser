@@ -57,7 +57,6 @@ def load_all_phrases(files: tuple) -> list:
     return phrases
 
 
-@cit.as_session
 def generate_UDP_file(Phraser: object, output: str, phrases: list):
     if not Phraser:
         raise Exception("Phraser must provided!")
@@ -98,8 +97,8 @@ if __name__ == "__main__":
     cit.ask("Which one you wanna convert?")
     phrsr_keys = cit.get_choices(list(AVAIL_PHRASER.keys()), allable=True)
     for key in phrsr_keys:
-        phraselet = AVAIL_PHRASER[key]
         cit.title("Generating {}".format(key))
+        phraselet = AVAIL_PHRASER[key]
         generate_UDP_file(Phraser=phraselet['phraser'], output=phraselet['output'], phrases=phrases)
         cit.end()
     cit.ask("Open Output Folder?")
