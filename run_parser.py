@@ -40,11 +40,11 @@ AVAIL_PHRASER = {
 }
 
 
-def phrases_filenames() -> list:
+def get_phrases_filenames() -> list:
     phrases_files = os.listdir(PHRASES_DIR)
     return [filename for filename in phrases_files if filename.startswith('UDP-') and filename.endswith('.json')]
 
-
+@cit.as_session
 def load_all_phrases(files: tuple) -> list:
     def load_phrases_from_json(filename: str) -> list:
         cit.info("Parsing {}".format(filename))
@@ -57,6 +57,7 @@ def load_all_phrases(files: tuple) -> list:
     return phrases
 
 
+@cit.as_session
 def generate_UDP_file(Phraser: object, output: str, phrases: list):
     if not Phraser:
         raise Exception("Phraser must provided!")
@@ -88,23 +89,19 @@ if __name__ == "__main__":
     cit.info("Output Folder: {}".format(GENERATED_DIR))
     cit.info("Phrases File location: {}".format(PHRASES_DIR))
     deco = "\n| * "
-    phrases_filenames = phrases_filenames()
-    cit.info("Phrases JSON Files:{deco}{data}".format(deco=deco, data=deco.join(phrases_filenames)))
+    phrases_filenames = get_phrases_filenames()
+    cit.info("Phrases JSON Files:")
+    for filename in phrases_filenames:
+        cit.echo(filename, pre="*")
     phrases_paths = [os.path.join(PHRASES_DIR, fn) for fn in phrases_filenames]
     phrases = load_all_phrases(phrases_paths)
     cit.ask("Which one you wanna convert?")
-    phrsr_key = cit.get_choice(list(AVAIL_PHRASER.keys()) + ['** ALL **'])
-    if phrsr_key == '** ALL **':
-        for key, phraselet in AVAIL_PHRASER.items():
-            cit.title("Generating {}".format(key))
-            generate_UDP_file(Phraser=phraselet['phraser'], output=phraselet['output'], phrases=phrases)
-            cit.end()
-    else:
-        phraselet = AVAIL_PHRASER[phrsr_key]
-        cit.title("Generating {}".format(phrsr_key))
+    phrsr_keys = cit.get_choices(list(AVAIL_PHRASER.keys()), allable=True)
+    for key in phrsr_keys:
+        phraselet = AVAIL_PHRASER[key]
+        cit.title("Generating {}".format(key))
         generate_UDP_file(Phraser=phraselet['phraser'], output=phraselet['output'], phrases=phrases)
         cit.end()
     cit.ask("Open Output Folder?")
-    is_open = cit.get_choice(('Yes', 'No'))
-    if is_open == 'Yes':
+    if cit.get_choice(('Yes', 'No')) == 'Yes':
         show_file(GENERATED_DIR)
