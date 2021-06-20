@@ -208,19 +208,19 @@
         "phrase": "⎓"
     },
     {
-        "shortcut": "prime",
+        "shortcut": "iprime",
         "phrase": "′"
     },
     {
-        "shortcut": "prime",
+        "shortcut": "iprime",
         "phrase": "″"
     },
     {
-        "shortcut": "prime",
+        "shortcut": "iprime",
         "phrase": "‴"
     },
     {
-        "shortcut": "prime",
+        "shortcut": "iprime",
         "phrase": "⁗"
     }
 ]
