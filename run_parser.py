@@ -44,6 +44,7 @@ def get_phrases_filenames() -> list:
     phrases_files = os.listdir(PHRASES_DIR)
     return [filename for filename in phrases_files if filename.startswith('UDP-') and filename.endswith('.json')]
 
+
 @cit.as_session
 def load_all_phrases(files: tuple) -> list:
     def load_phrases_from_json(filename: str) -> list:
