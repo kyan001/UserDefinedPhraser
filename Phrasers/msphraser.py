@@ -15,7 +15,7 @@ from .phraser import Phraser
 #           timestamp
 # 00000020  49 4e 06 59 00 00 00 00  00 00 00 00 00 00 00 00  |IN.Y............|
 # 00000030  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
-#                                                      candidate2
+#                                                      frequency
 #           phrase_offsets[]         magic_X     phrase_offset2
 # 00000040  00 00 00 00 24 00 00 00  10 00 10 00 18 00 06 06  |....$...........|
 #           phrase_unknown8_X        pinyin
@@ -23,7 +23,7 @@ from .phraser import Phraser
 #           phrase                               magic_X
 # 00000060  61 00 61 00 61 00 61 00  61 00 00 00 10 00 10 00  |a.a.a.a.a.......|
 #                       phrase_unknown8_X
-#                 candidate2
+#                 frequency
 #           offset2                        pinyin
 # 00000070  1a 00 07 06 00 00 00 00  a6 0a 99 20 62 00 62 00  |........... b.b.|
 #                             phrase
@@ -40,13 +40,13 @@ from .phraser import Phraser
 #           timestamp
 # 00000020  29 b8 cc 58 00 00 00 00  00 00 00 00 00 00 00 00  |)..X............|
 # 00000030  00 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00  |................|
-#                                                      candidate2
+#                                                      frequency
 #           phrase_offsets[]         magic       offset2
 # 00000040  00 00 00 00 1c 00 00 00  08 00 08 00 10 00 01 06  |................|
 #           pinyin                   phrase
 # 00000050  61 00 61 00 61 00 00 00  61 00 61 00 61 00 61 00  |a.a.a...a.a.a.a.|
 #                                                pinyin
-#                                          candidate2
+#                                          frequency
 #                       magic        offset2
 # 00000060  61 00 00 00 08 00 08 00  10 00 05 06 62 00 62 00  |a...........b.b.|
 #                       phrase
@@ -101,11 +101,14 @@ class MschxudpBuilder(object):
         else:
             raise Exception("Version Error: unsupported version {}".format(phrase_magic))
 
-    def add_phrase(self, shortcut: str, phrase: str, candidate: tuple = (1, 6)):
+    def add_phrase(self, shortcut: str, phrase: str, candidate: int = 1, frequency: int = 6):
+        if self.phrases and shortcut == self.phrases[-1]["shortcut"]:
+            candidate = self.phrases[-1]["candidate"] + 1
         self.phrases.append({
             "shortcut": shortcut,
             "phrase": phrase,
             "candidate": candidate,
+            "frequency": frequency,
         })
 
     def save(self, file_name):
@@ -123,10 +126,10 @@ class MschxudpBuilder(object):
                 phrase_utf16 = (itm['phrase'] + '\0').encode('utf-16-le')
                 if self.phrase_magic == 0x00100010:
                     offset = 0x0010 + len(shortcut_utf16)
-                    fl.write(struct.pack('IHBBQ', self.phrase_magic, offset, itm['candidate'][0], itm['candidate'][1], self.phrase_unknown))
+                    fl.write(struct.pack('IHBBQ', self.phrase_magic, offset, itm['candidate'], itm['frequency'], self.phrase_unknown))
                 elif self.phrase_magic == 0x00080008:
                     offset = 0x0008 + len(shortcut_utf16)
-                    fl.write(struct.pack('IHBB', self.phrase_magic, offset, itm['candidate'][0], itm['candidate'][1]))
+                    fl.write(struct.pack('IHBB', self.phrase_magic, offset, itm['candidate'], itm['frequency']))
                 else:
                     raise Exception("Version Error: unsupported version {}".format(self.phrase_magic))
                 fl.write(shortcut_utf16)
