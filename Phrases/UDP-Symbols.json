@@ -206,5 +206,21 @@
     {
         "shortcut": "idc",
         "phrase": "⎓"
+    },
+    {
+        "shortcut": "prime",
+        "phrase": "′"
+    },
+    {
+        "shortcut": "prime",
+        "phrase": "″"
+    },
+    {
+        "shortcut": "prime",
+        "phrase": "‴"
+    },
+    {
+        "shortcut": "prime",
+        "phrase": "⁗"
     }
 ]
