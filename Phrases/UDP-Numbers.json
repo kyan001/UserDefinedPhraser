@@ -164,7 +164,7 @@
         "phrase": "⁼"
     },
     {
-        "shortcut": "inotequal",
+        "shortcut": "iequal",
         "phrase": "≠"
     },
     {
@@ -178,6 +178,14 @@
     {
         "shortcut": "idiv",
         "phrase": "÷"
+    },
+    {
+        "shortcut": "idiv",
+        "phrase": "∕"
+    },
+    {
+        "shortcut": "idiv",
+        "phrase": "⁄"
     },
     {
         "shortcut": "inum",
