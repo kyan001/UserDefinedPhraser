@@ -133,11 +133,11 @@
     },
     {
         "shortcut": "izkh",
-        "phrase": "「"
+        "phrase": "⦋"
     },
     {
         "shortcut": "izkh",
-        "phrase": "₍"
+        "phrase": "「"
     },
     {
         "shortcut": "izkh",
@@ -145,7 +145,11 @@
     },
     {
         "shortcut": "izkh",
-        "phrase": "⦋"
+        "phrase": "₍"
+    },
+    {
+        "shortcut": "iykh",
+        "phrase": "⦌"
     },
     {
         "shortcut": "iykh",
@@ -153,15 +157,11 @@
     },
     {
         "shortcut": "iykh",
-        "phrase": "₎"
-    },
-    {
-        "shortcut": "iykh",
         "phrase": "⁾"
     },
     {
         "shortcut": "iykh",
-        "phrase": "⦌"
+        "phrase": "₎"
     },
     {
         "shortcut": "isharp",
@@ -177,11 +177,11 @@
     },
     {
         "shortcut": "ilink",
-        "phrase": "⛓️"
+        "phrase": "🔗"
     },
     {
         "shortcut": "ilink",
-        "phrase": "🔗"
+        "phrase": "⛓️"
     },
     {
         "shortcut": "ianchor",
@@ -194,6 +194,10 @@
     {
         "shortcut": "imemo",
         "phrase": "📝"
+    },
+    {
+        "shortcut": "ifolder",
+        "phrase": "📁"
     },
     {
         "shortcut": "ipage",
