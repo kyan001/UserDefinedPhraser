@@ -5,7 +5,7 @@
     },
     {
         "shortcut": "izero",
-        "phrase": "⓪"
+        "phrase": "⁰"
     },
     {
         "shortcut": "izero",
@@ -13,11 +13,11 @@
     },
     {
         "shortcut": "izero",
-        "phrase": "⁰"
+        "phrase": "⓪"
     },
     {
         "shortcut": "ione",
-        "phrase": "①"
+        "phrase": "¹"
     },
     {
         "shortcut": "ione",
@@ -25,15 +25,7 @@
     },
     {
         "shortcut": "ione",
-        "phrase": "¹"
-    },
-    {
-        "shortcut": "itwo",
-        "phrase": "②"
-    },
-    {
-        "shortcut": "itwo",
-        "phrase": "₂"
+        "phrase": "①"
     },
     {
         "shortcut": "itwo",
@@ -41,15 +33,15 @@
     },
     {
         "shortcut": "itwo",
+        "phrase": "₂"
+    },
+    {
+        "shortcut": "itwo",
+        "phrase": "②"
+    },
+    {
+        "shortcut": "itwo",
         "phrase": "½"
-    },
-    {
-        "shortcut": "ithree",
-        "phrase": "③"
-    },
-    {
-        "shortcut": "ithree",
-        "phrase": "₃"
     },
     {
         "shortcut": "ithree",
@@ -57,15 +49,15 @@
     },
     {
         "shortcut": "ithree",
+        "phrase": "₃"
+    },
+    {
+        "shortcut": "ithree",
+        "phrase": "③"
+    },
+    {
+        "shortcut": "ithree",
         "phrase": "⅓"
-    },
-    {
-        "shortcut": "ifour",
-        "phrase": "④"
-    },
-    {
-        "shortcut": "ifour",
-        "phrase": "₄"
     },
     {
         "shortcut": "ifour",
@@ -73,11 +65,19 @@
     },
     {
         "shortcut": "ifour",
+        "phrase": "₄"
+    },
+    {
+        "shortcut": "ifour",
+        "phrase": "④"
+    },
+    {
+        "shortcut": "ifour",
         "phrase": "¼"
     },
     {
         "shortcut": "ifive",
-        "phrase": "⑤"
+        "phrase": "⁵"
     },
     {
         "shortcut": "ifive",
@@ -85,11 +85,11 @@
     },
     {
         "shortcut": "ifive",
-        "phrase": "⁵"
+        "phrase": "⑤"
     },
     {
         "shortcut": "isix",
-        "phrase": "⑥"
+        "phrase": "⁶"
     },
     {
         "shortcut": "isix",
@@ -97,11 +97,11 @@
     },
     {
         "shortcut": "isix",
-        "phrase": "⁶"
+        "phrase": "⑥"
     },
     {
         "shortcut": "iseven",
-        "phrase": "⑦"
+        "phrase": "⁷"
     },
     {
         "shortcut": "iseven",
@@ -109,11 +109,11 @@
     },
     {
         "shortcut": "iseven",
-        "phrase": "⁷"
+        "phrase": "⑦"
     },
     {
         "shortcut": "ieight",
-        "phrase": "⑧"
+        "phrase": "⁸"
     },
     {
         "shortcut": "ieight",
@@ -121,11 +121,11 @@
     },
     {
         "shortcut": "ieight",
-        "phrase": "⁸"
+        "phrase": "⑧"
     },
     {
         "shortcut": "inine",
-        "phrase": "⑨"
+        "phrase": "⁹"
     },
     {
         "shortcut": "inine",
@@ -133,7 +133,7 @@
     },
     {
         "shortcut": "inine",
-        "phrase": "⁹"
+        "phrase": "⑨"
     },
     {
         "shortcut": "iinf",
