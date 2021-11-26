@@ -5,6 +5,7 @@ import subprocess
 import platform
 
 import consoleiotools as cit
+import consolecmdtools as cct
 
 from Phrasers.macphraser import MacPhraser
 from Phrasers.msphraser import MsPhraser
@@ -76,15 +77,6 @@ def generate_UDP_file(Phraser: object, output: str, phrases: list):
     cit.info("'{o}' is generated, {length} phrases.".format(o=output, length=len(phraser.phrases)))
 
 
-def show_file(path: str):
-    if sys.platform.startswith("win"):
-        os.startfile(path)
-    elif platform.system() == "Darwin":
-        subprocess.Popen(["open", path])
-    else:
-        subprocess.Popen(["xdg-open", path])
-
-
 if __name__ == "__main__":
     cit.info("Output Folder: {}".format(GENERATED_DIR))
     cit.info("Phrases File location: {}".format(PHRASES_DIR))
@@ -102,6 +94,4 @@ if __name__ == "__main__":
         phraselet = AVAIL_PHRASER[key]
         generate_UDP_file(Phraser=phraselet['phraser'], output=phraselet['output'], phrases=phrases)
         cit.end()
-    cit.ask("Open Output Folder?")
-    if cit.get_choice(('Yes', 'No')) == 'Yes':
-        show_file(GENERATED_DIR)
+    cct.show_in_folder(GENERATED_DIR, ask=True)
