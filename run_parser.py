@@ -88,7 +88,9 @@ if __name__ == "__main__":
     phrases_paths = [os.path.join(PHRASES_DIR, fn) for fn in phrases_filenames]
     phrases = load_all_phrases(phrases_paths)
     cit.ask("Which one you wanna convert?")
-    phrsr_keys = cit.get_choices(list(AVAIL_PHRASER.keys()), allable=True)
+    phrsr_keys = cit.get_choices(list(AVAIL_PHRASER.keys()), allable=True, exitable=True)
+    if not phrsr_keys:
+        cit.bye()
     for key in phrsr_keys:
         cit.title("Generating {}".format(key))
         phraselet = AVAIL_PHRASER[key]
