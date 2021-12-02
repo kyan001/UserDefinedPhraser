@@ -7,9 +7,10 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = ">=3.7"
-consoleiotools = "latest"
 bs4 = "latest"
 lxml = "latest"
+consoleiotools = "latest"
+consolecmdtools = "latest"
 
 [tool.poetry.dev-dependencies]
 

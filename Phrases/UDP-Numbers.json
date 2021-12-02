@@ -168,6 +168,14 @@
         "phrase": "≠"
     },
     {
+        "shortcut": "iequal",
+        "phrase": "≈"
+    },
+    {
+        "shortcut": "iequal",
+        "phrase": "≡"
+    },
+    {
         "shortcut": "itimes",
         "phrase": "×"
     },
