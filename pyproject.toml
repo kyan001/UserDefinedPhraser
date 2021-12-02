@@ -13,6 +13,7 @@ consoleiotools = "latest"
 consolecmdtools = "latest"
 
 [tool.poetry.dev-dependencies]
+pycodestyle = "latest"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
