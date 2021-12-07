@@ -224,19 +224,19 @@
         "phrase": "⎓"
     },
     {
-        "shortcut": "iquote",
+        "shortcut": "iprime",
         "phrase": "′"
     },
     {
-        "shortcut": "iquote",
+        "shortcut": "iprime",
         "phrase": "″"
     },
     {
-        "shortcut": "iquote",
+        "shortcut": "iprime",
         "phrase": "‴"
     },
     {
-        "shortcut": "iquote",
+        "shortcut": "iprime",
         "phrase": "⁗"
     }
 ]
