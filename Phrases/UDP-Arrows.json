@@ -21,6 +21,10 @@
     },
     {
         "shortcut": "idown",
+        "phrase": "🔻"
+    },
+    {
+        "shortcut": "idown",
         "phrase": "↓"
     },
     {
@@ -38,10 +42,6 @@
     {
         "shortcut": "idown",
         "phrase": "↯"
-    },
-    {
-        "shortcut": "idown",
-        "phrase": "🔻"
     },
     {
         "shortcut": "ileft",
