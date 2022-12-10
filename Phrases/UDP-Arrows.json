@@ -1,6 +1,10 @@
 [
     {
         "shortcut": "iup",
+        "phrase": "↕"
+    },
+    {
+        "shortcut": "iup",
         "phrase": "↑"
     },
     {
