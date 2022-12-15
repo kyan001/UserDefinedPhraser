@@ -48,6 +48,10 @@
         "phrase": "·"
     },
     {
+        "shortcut": "idot",
+        "phrase": "⋮"
+    },
+    {
         "shortcut": "isquare",
         "phrase": "□"
     },

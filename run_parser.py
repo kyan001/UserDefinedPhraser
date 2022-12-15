@@ -49,7 +49,7 @@ def get_phrases_filenames() -> list:
 @cit.as_session
 def load_all_phrases(files: tuple) -> list:
     def load_phrases_from_json(filename: str) -> list:
-        cit.info("Parsing {}".format(filename))
+        cit.info(f"Parsing `{filename}`")
         jup = JsonPhraser()
         jup.from_file(filename)
         return jup.phrases
@@ -83,8 +83,7 @@ if __name__ == "__main__":
     deco = "\n| * "
     phrases_filenames = get_phrases_filenames()
     cit.info("Phrases JSON Files:")
-    for filename in phrases_filenames:
-        cit.echo(filename, pre="*")
+    cit.markdown("\n".join([f"* `{filename}`" for filename in phrases_filenames]))
     phrases_paths = [os.path.join(PHRASES_DIR, fn) for fn in phrases_filenames]
     phrases = load_all_phrases(phrases_paths)
     cit.ask("Which one you wanna convert?")
