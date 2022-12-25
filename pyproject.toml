@@ -1,3 +1,8 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
 [project]
 name = "UserDefinedPhraser"
 version = "1.0.0"
@@ -13,12 +18,15 @@ classifiers = [
 ]
 dependencies = ["beautifulsoup4", "lxml", "consoleiotools", "consolecmdtools"]  # 依赖的第三方 package
 
+
 [[project.authors]]  # 追加作者
 name = "Kyan"
 email = "kai@kyan001.com"
 
+
 [project.optional-dependencies]
 dev = ["pycodestyle"]  # pip install "expackage[dev]" 时安装
+
 
 [project.urls]
 homepage = "https://github.com/kyan001/UserDefinedPhraser"  # 主页
