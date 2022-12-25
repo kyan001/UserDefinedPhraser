@@ -13,6 +13,8 @@ from Phrasers.jsonphraser import JsonPhraser
 from Phrasers.txtphraser import TxtPhraser
 from Phrasers.htmlphraser import HtmlPhraser
 
+__version__ = "1.0.1"
+
 COMMANDS = []
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 GENERATED_DIR = os.path.join(PROJECT_DIR, "GeneratedUDP")

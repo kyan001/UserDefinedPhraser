@@ -1,20 +1,27 @@
-[tool.poetry]
-name = "userdefinedphraser"
+[project]
+name = "UserDefinedPhraser"
 version = "1.0.0"
-description = "Convert pre-defined User Defined Phrases(UDP) to supported format"
-authors = ["Kyan <ykyankai@gmail.com>"]
-license = "MIT"
+readme = "README.md"
+description = "Convert pre-defined User Defined Phrases (UDP) to supported format"
+requires-python = ">=3.6"
+keywords = ["User", "Defined", "Phrases"]
+license = { file = "LICENSE" }  # 使用文件作为 LICENSE
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = ["beautifulsoup4", "lxml", "consoleiotools", "consolecmdtools"]  # 依赖的第三方 package
 
-[tool.poetry.dependencies]
-python = ">=3.7"
-bs4 = "latest"
-lxml = "latest"
-consoleiotools = "latest"
-consolecmdtools = "latest"
+[[project.authors]]  # 追加作者
+name = "Kyan"
+email = "kai@kyan001.com"
 
-[tool.poetry.dev-dependencies]
-pycodestyle = "latest"
+[project.optional-dependencies]
+dev = ["pycodestyle"]  # pip install "expackage[dev]" 时安装
 
-[build-system]
-requires = ["poetry-core>=1.0.0"]
-build-backend = "poetry.core.masonry.api"
+[project.urls]
+homepage = "https://github.com/kyan001/UserDefinedPhraser"  # 主页
+documentation = "https://github.com/kyan001/UserDefinedPhraser/blob/master/README.md"  # 文档
+"Issue Tracker" = "https://github.com/kyan001/UserDefinedPhraser/issues"  # BUG 提交
+"Source Code" = "https://github.com/kyan001/UserDefinedPhraser"  # 代码
