@@ -192,42 +192,6 @@
         "phrase": "¥"
     },
     {
-        "shortcut": "ilink",
-        "phrase": "🔗"
-    },
-    {
-        "shortcut": "ilink",
-        "phrase": "⛓️"
-    },
-    {
-        "shortcut": "ianchor",
-        "phrase": "⚓"
-    },
-    {
-        "shortcut": "inote",
-        "phrase": "🗒️"
-    },
-    {
-        "shortcut": "imemo",
-        "phrase": "📝"
-    },
-    {
-        "shortcut": "ifolder",
-        "phrase": "📁"
-    },
-    {
-        "shortcut": "ipage",
-        "phrase": "📄"
-    },
-    {
-        "shortcut": "imouse",
-        "phrase": "🖱️"
-    },
-    {
-        "shortcut": "ichestnut",
-        "phrase": "🌰"
-    },
-    {
         "shortcut": "idc",
         "phrase": "⎓"
     },
