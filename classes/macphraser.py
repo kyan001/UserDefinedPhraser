@@ -7,6 +7,8 @@ from .phraser import Phraser
 
 
 class MacPhraser(Phraser):
+    ext = 'plist'
+
     def from_file(self, filepath: str):
         """ Read file into objects."""
         if not filepath:

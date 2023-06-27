@@ -18,6 +18,8 @@ from .phraser import Phraser
 
 
 class JsonPhraser(Phraser):
+    ext = 'json'
+
     def from_file(self, filepath: str):
         """ Read `.json` file into objects."""
         if not filepath:

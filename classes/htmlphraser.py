@@ -27,6 +27,8 @@ from .phraser import Phraser
 
 
 class HtmlPhraser(Phraser):
+    ext = 'html'
+
     def from_file(self, filepath: str):
         # TODO
         """ Read file into objects."""

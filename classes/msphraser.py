@@ -55,6 +55,8 @@ from .phraser import Phraser
 
 
 class MsPhraser(Phraser):
+    ext = 'dat'
+
     def from_file(self, filepath: str):
         if not filepath:
             raise Exception("No filepath provided")

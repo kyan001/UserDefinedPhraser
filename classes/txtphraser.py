@@ -4,6 +4,8 @@ from .phraser import Phraser
 
 
 class TxtPhraser(Phraser):
+    ext = 'txt'
+
     def from_file(self, filepath: str):
         if not filepath:
             raise Exception("No filepath provided")
