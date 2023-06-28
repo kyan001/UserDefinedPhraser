@@ -1,5 +1,6 @@
 class Phraser:
     ext = ''  # filename extension
+    name = ''  # phraser name
 
     def __init__(self, phrases: list = []):
         self.phrases = phrases  # save all the "phrase & shortcut".

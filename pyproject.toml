@@ -1,12 +1,12 @@
 [build-system]
-requires = ["setuptools>=61.0.0", "wheel"]
+requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 
 [project]
 name = "UserDefinedPhraser"
-version = "1.0.0"
 readme = "README.md"
+dynamic = ["version"]
 description = "Convert pre-defined User Defined Phrases (UDP) to supported format"
 requires-python = ">=3.6"
 keywords = ["User", "Defined", "Phrases"]
@@ -33,3 +33,9 @@ homepage = "https://github.com/kyan001/UserDefinedPhraser"  # 主页
 documentation = "https://github.com/kyan001/UserDefinedPhraser/blob/master/README.md"  # 文档
 "Issue Tracker" = "https://github.com/kyan001/UserDefinedPhraser/issues"  # BUG 提交
 "Source Code" = "https://github.com/kyan001/UserDefinedPhraser"  # 代码
+
+[tool.setuptools.dynamic]
+version = {attr = "user_defined_phraser.__version__"}
+
+[tool.setuptools]
+py-modules = ["user_defined_phraser"]

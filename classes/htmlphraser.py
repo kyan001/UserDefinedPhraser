@@ -2,7 +2,7 @@ import os
 
 from bs4 import BeautifulSoup
 
-from .phraser import Phraser
+from . import phraser
 
 """.html format:
 <html>
@@ -26,8 +26,9 @@ from .phraser import Phraser
 """
 
 
-class HtmlPhraser(Phraser):
+class HtmlPhraser(phraser.Phraser):
     ext = 'html'
+    name = 'HTML'
 
     def from_file(self, filepath: str):
         # TODO

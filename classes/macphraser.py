@@ -3,11 +3,12 @@ import os
 from bs4 import BeautifulSoup
 from bs4 import Doctype
 
-from .phraser import Phraser
+from . import phraser
 
 
-class MacPhraser(Phraser):
+class MacPhraser(phraser.Phraser):
     ext = 'plist'
+    name = 'macOS'
 
     def from_file(self, filepath: str):
         """ Read file into objects."""

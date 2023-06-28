@@ -4,7 +4,7 @@ import tempfile
 import struct
 from datetime import datetime
 
-from .phraser import Phraser
+from . import phraser
 
 # win10 1703
 #           proto8                   unknown_X   version
@@ -54,8 +54,9 @@ from .phraser import Phraser
 # 0000007e
 
 
-class MsPhraser(Phraser):
+class MsPhraser(phraser.Phraser):
     ext = 'dat'
+    name = 'Windows'
 
     def from_file(self, filepath: str):
         if not filepath:

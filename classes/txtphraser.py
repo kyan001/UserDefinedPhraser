@@ -1,10 +1,11 @@
 import os
 
-from .phraser import Phraser
+from . import phraser
 
 
-class TxtPhraser(Phraser):
+class TxtPhraser(phraser.Phraser):
     ext = 'txt'
+    name = 'QQ'
 
     def from_file(self, filepath: str):
         if not filepath:

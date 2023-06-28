@@ -1,7 +1,7 @@
 import os
 import json
 
-from .phraser import Phraser
+from . import phraser
 
 """.json format:
 [
@@ -17,8 +17,9 @@ from .phraser import Phraser
 """
 
 
-class JsonPhraser(Phraser):
+class JsonPhraser(phraser.Phraser):
     ext = 'json'
+    name = 'JSON'
 
     def from_file(self, filepath: str):
         """ Read `.json` file into objects."""
