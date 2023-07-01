@@ -10,7 +10,7 @@ import classes.txtphraser
 import classes.htmlphraser
 import classes.phraser
 
-__version__ = "2.0.0"
+__version__ = "2.1.0"
 
 PROJECT_DIR = cct.get_path(__file__, parent=True)
 GENERATED_DIR = os.path.join(PROJECT_DIR, "GeneratedUDP")

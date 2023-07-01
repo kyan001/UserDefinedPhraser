@@ -1,15 +1,7 @@
 [
     {
         "shortcut": "va",
-        "phrase": "あ"
-    },
-    {
-        "shortcut": "va",
         "phrase": "ア"
-    },
-    {
-        "shortcut": "vi",
-        "phrase": "い"
     },
     {
         "shortcut": "vi",
@@ -17,15 +9,7 @@
     },
     {
         "shortcut": "vu",
-        "phrase": "う"
-    },
-    {
-        "shortcut": "vu",
         "phrase": "ウ"
-    },
-    {
-        "shortcut": "ve",
-        "phrase": "え"
     },
     {
         "shortcut": "ve",
@@ -33,15 +17,7 @@
     },
     {
         "shortcut": "vo",
-        "phrase": "お"
-    },
-    {
-        "shortcut": "vo",
         "phrase": "オ"
-    },
-    {
-        "shortcut": "vka",
-        "phrase": "か"
     },
     {
         "shortcut": "vka",
@@ -49,15 +25,7 @@
     },
     {
         "shortcut": "vki",
-        "phrase": "き"
-    },
-    {
-        "shortcut": "vki",
         "phrase": "キ"
-    },
-    {
-        "shortcut": "vku",
-        "phrase": "く"
     },
     {
         "shortcut": "vku",
@@ -65,15 +33,7 @@
     },
     {
         "shortcut": "vke",
-        "phrase": "け"
-    },
-    {
-        "shortcut": "vke",
         "phrase": "ケ"
-    },
-    {
-        "shortcut": "vko",
-        "phrase": "こ"
     },
     {
         "shortcut": "vko",
@@ -81,15 +41,7 @@
     },
     {
         "shortcut": "vkya",
-        "phrase": "きゃ"
-    },
-    {
-        "shortcut": "vkya",
         "phrase": "キャ"
-    },
-    {
-        "shortcut": "vkyu",
-        "phrase": "きゅ"
     },
     {
         "shortcut": "vkyu",
@@ -97,15 +49,7 @@
     },
     {
         "shortcut": "vkye",
-        "phrase": "きぇ"
-    },
-    {
-        "shortcut": "vkye",
         "phrase": "キェ"
-    },
-    {
-        "shortcut": "vkyo",
-        "phrase": "きょ"
     },
     {
         "shortcut": "vkyo",
@@ -113,15 +57,7 @@
     },
     {
         "shortcut": "vga",
-        "phrase": "が"
-    },
-    {
-        "shortcut": "vga",
         "phrase": "ガ"
-    },
-    {
-        "shortcut": "vgi",
-        "phrase": "ぎ"
     },
     {
         "shortcut": "vgi",
@@ -129,15 +65,7 @@
     },
     {
         "shortcut": "vgu",
-        "phrase": "ぐ"
-    },
-    {
-        "shortcut": "vgu",
         "phrase": "グ"
-    },
-    {
-        "shortcut": "vge",
-        "phrase": "げ"
     },
     {
         "shortcut": "vge",
@@ -145,15 +73,7 @@
     },
     {
         "shortcut": "vgo",
-        "phrase": "ご"
-    },
-    {
-        "shortcut": "vgo",
         "phrase": "ゴ"
-    },
-    {
-        "shortcut": "vgya",
-        "phrase": "ぎゃ"
     },
     {
         "shortcut": "vgya",
@@ -161,15 +81,7 @@
     },
     {
         "shortcut": "vgyu",
-        "phrase": "ぎゅ"
-    },
-    {
-        "shortcut": "vgyu",
         "phrase": "ギュ"
-    },
-    {
-        "shortcut": "vgye",
-        "phrase": "ぎぇ"
     },
     {
         "shortcut": "vgye",
@@ -177,15 +89,7 @@
     },
     {
         "shortcut": "vgyo",
-        "phrase": "ぎょ"
-    },
-    {
-        "shortcut": "vgyo",
         "phrase": "ギョ"
-    },
-    {
-        "shortcut": "vsa",
-        "phrase": "さ"
     },
     {
         "shortcut": "vsa",
@@ -193,15 +97,7 @@
     },
     {
         "shortcut": "vshi",
-        "phrase": "し"
-    },
-    {
-        "shortcut": "vshi",
         "phrase": "シ"
-    },
-    {
-        "shortcut": "vsu",
-        "phrase": "す"
     },
     {
         "shortcut": "vsu",
@@ -209,15 +105,7 @@
     },
     {
         "shortcut": "vse",
-        "phrase": "せ"
-    },
-    {
-        "shortcut": "vse",
         "phrase": "セ"
-    },
-    {
-        "shortcut": "vso",
-        "phrase": "そ"
     },
     {
         "shortcut": "vso",
@@ -225,15 +113,7 @@
     },
     {
         "shortcut": "vsha",
-        "phrase": "しゃ"
-    },
-    {
-        "shortcut": "vsha",
         "phrase": "シャ"
-    },
-    {
-        "shortcut": "vshu",
-        "phrase": "しゅ"
     },
     {
         "shortcut": "vshu",
@@ -241,15 +121,7 @@
     },
     {
         "shortcut": "vshe",
-        "phrase": "しぇ"
-    },
-    {
-        "shortcut": "vshe",
         "phrase": "シェ"
-    },
-    {
-        "shortcut": "vsho",
-        "phrase": "しょ"
     },
     {
         "shortcut": "vsho",
@@ -257,15 +129,7 @@
     },
     {
         "shortcut": "vza",
-        "phrase": "ざ"
-    },
-    {
-        "shortcut": "vza",
         "phrase": "ザ"
-    },
-    {
-        "shortcut": "vji",
-        "phrase": "じ"
     },
     {
         "shortcut": "vji",
@@ -273,15 +137,7 @@
     },
     {
         "shortcut": "vzu",
-        "phrase": "ず"
-    },
-    {
-        "shortcut": "vzu",
         "phrase": "ズ"
-    },
-    {
-        "shortcut": "vze",
-        "phrase": "ぜ"
     },
     {
         "shortcut": "vze",
@@ -289,15 +145,7 @@
     },
     {
         "shortcut": "vzo",
-        "phrase": "ぞ"
-    },
-    {
-        "shortcut": "vzo",
         "phrase": "ゾ"
-    },
-    {
-        "shortcut": "vja",
-        "phrase": "じゃ"
     },
     {
         "shortcut": "vja",
@@ -305,15 +153,7 @@
     },
     {
         "shortcut": "vzi",
-        "phrase": "ずぃ"
-    },
-    {
-        "shortcut": "vzi",
         "phrase": "ズィ"
-    },
-    {
-        "shortcut": "vju",
-        "phrase": "じゅ"
     },
     {
         "shortcut": "vju",
@@ -321,15 +161,7 @@
     },
     {
         "shortcut": "vje",
-        "phrase": "じぇ"
-    },
-    {
-        "shortcut": "vje",
         "phrase": "ジェ"
-    },
-    {
-        "shortcut": "vjo",
-        "phrase": "じょ"
     },
     {
         "shortcut": "vjo",
@@ -337,15 +169,7 @@
     },
     {
         "shortcut": "vta",
-        "phrase": "た"
-    },
-    {
-        "shortcut": "vta",
         "phrase": "タ"
-    },
-    {
-        "shortcut": "vchi",
-        "phrase": "ち"
     },
     {
         "shortcut": "vchi",
@@ -353,15 +177,7 @@
     },
     {
         "shortcut": "vtsu",
-        "phrase": "つ"
-    },
-    {
-        "shortcut": "vtsu",
         "phrase": "ツ"
-    },
-    {
-        "shortcut": "vte",
-        "phrase": "て"
     },
     {
         "shortcut": "vte",
@@ -369,15 +185,7 @@
     },
     {
         "shortcut": "vto",
-        "phrase": "と"
-    },
-    {
-        "shortcut": "vto",
         "phrase": "ト"
-    },
-    {
-        "shortcut": "vtsa",
-        "phrase": "つぁ"
     },
     {
         "shortcut": "vtsa",
@@ -385,15 +193,7 @@
     },
     {
         "shortcut": "vtsi",
-        "phrase": "つぃ"
-    },
-    {
-        "shortcut": "vtsi",
         "phrase": "ツィ"
-    },
-    {
-        "shortcut": "vtse",
-        "phrase": "つぇ"
     },
     {
         "shortcut": "vtse",
@@ -401,15 +201,7 @@
     },
     {
         "shortcut": "vtso",
-        "phrase": "つぉ"
-    },
-    {
-        "shortcut": "vtso",
         "phrase": "ツォ"
-    },
-    {
-        "shortcut": "vcha",
-        "phrase": "ちゃ"
     },
     {
         "shortcut": "vcha",
@@ -417,15 +209,7 @@
     },
     {
         "shortcut": "vchu",
-        "phrase": "ちゅ"
-    },
-    {
-        "shortcut": "vchu",
         "phrase": "チュ"
-    },
-    {
-        "shortcut": "vche",
-        "phrase": "ちぇ"
     },
     {
         "shortcut": "vche",
@@ -433,15 +217,7 @@
     },
     {
         "shortcut": "vcho",
-        "phrase": "ちょ"
-    },
-    {
-        "shortcut": "vcho",
         "phrase": "チョ"
-    },
-    {
-        "shortcut": "vda",
-        "phrase": "だ"
     },
     {
         "shortcut": "vda",
@@ -449,15 +225,7 @@
     },
     {
         "shortcut": "vdji",
-        "phrase": "ぢ"
-    },
-    {
-        "shortcut": "vdji",
         "phrase": "ヂ"
-    },
-    {
-        "shortcut": "vdu",
-        "phrase": "づ"
     },
     {
         "shortcut": "vdu",
@@ -465,15 +233,7 @@
     },
     {
         "shortcut": "vde",
-        "phrase": "で"
-    },
-    {
-        "shortcut": "vde",
         "phrase": "デ"
-    },
-    {
-        "shortcut": "vdo",
-        "phrase": "ど"
     },
     {
         "shortcut": "vdo",
@@ -481,15 +241,7 @@
     },
     {
         "shortcut": "vdja",
-        "phrase": "ぢゃ"
-    },
-    {
-        "shortcut": "vdja",
         "phrase": "ヂャ"
-    },
-    {
-        "shortcut": "vdi",
-        "phrase": "でぃ"
     },
     {
         "shortcut": "vdi",
@@ -497,15 +249,7 @@
     },
     {
         "shortcut": "vdju",
-        "phrase": "ぢゅ"
-    },
-    {
-        "shortcut": "vdju",
         "phrase": "ヂュ"
-    },
-    {
-        "shortcut": "vdje",
-        "phrase": "ぢぇ"
     },
     {
         "shortcut": "vdje",
@@ -513,15 +257,7 @@
     },
     {
         "shortcut": "vdjo",
-        "phrase": "ぢょ"
-    },
-    {
-        "shortcut": "vdjo",
         "phrase": "ヂョ"
-    },
-    {
-        "shortcut": "vna",
-        "phrase": "な"
     },
     {
         "shortcut": "vna",
@@ -529,15 +265,7 @@
     },
     {
         "shortcut": "vni",
-        "phrase": "に"
-    },
-    {
-        "shortcut": "vni",
         "phrase": "ニ"
-    },
-    {
-        "shortcut": "vnu",
-        "phrase": "ぬ"
     },
     {
         "shortcut": "vnu",
@@ -545,15 +273,7 @@
     },
     {
         "shortcut": "vne",
-        "phrase": "ね"
-    },
-    {
-        "shortcut": "vne",
         "phrase": "ネ"
-    },
-    {
-        "shortcut": "vno",
-        "phrase": "の"
     },
     {
         "shortcut": "vno",
@@ -561,15 +281,7 @@
     },
     {
         "shortcut": "vnya",
-        "phrase": "にゃ"
-    },
-    {
-        "shortcut": "vnya",
         "phrase": "ニャ"
-    },
-    {
-        "shortcut": "vnyu",
-        "phrase": "にゅ"
     },
     {
         "shortcut": "vnyu",
@@ -577,15 +289,7 @@
     },
     {
         "shortcut": "vnye",
-        "phrase": "にぇ"
-    },
-    {
-        "shortcut": "vnye",
         "phrase": "ニェ"
-    },
-    {
-        "shortcut": "vnyo",
-        "phrase": "にょ"
     },
     {
         "shortcut": "vnyo",
@@ -593,15 +297,7 @@
     },
     {
         "shortcut": "vha",
-        "phrase": "は"
-    },
-    {
-        "shortcut": "vha",
         "phrase": "ハ"
-    },
-    {
-        "shortcut": "vhi",
-        "phrase": "ひ"
     },
     {
         "shortcut": "vhi",
@@ -609,15 +305,7 @@
     },
     {
         "shortcut": "vfu",
-        "phrase": "ふ"
-    },
-    {
-        "shortcut": "vfu",
         "phrase": "フ"
-    },
-    {
-        "shortcut": "vhe",
-        "phrase": "へ"
     },
     {
         "shortcut": "vhe",
@@ -625,15 +313,7 @@
     },
     {
         "shortcut": "vho",
-        "phrase": "ほ"
-    },
-    {
-        "shortcut": "vho",
         "phrase": "ホ"
-    },
-    {
-        "shortcut": "vhya",
-        "phrase": "ひゃ"
     },
     {
         "shortcut": "vhya",
@@ -641,15 +321,7 @@
     },
     {
         "shortcut": "vhyu",
-        "phrase": "ひゅ"
-    },
-    {
-        "shortcut": "vhyu",
         "phrase": "ヒょ"
-    },
-    {
-        "shortcut": "vhye",
-        "phrase": "ひぇ"
     },
     {
         "shortcut": "vhye",
@@ -657,15 +329,7 @@
     },
     {
         "shortcut": "vhyo",
-        "phrase": "ひょ"
-    },
-    {
-        "shortcut": "vhyo",
         "phrase": "ヒョ"
-    },
-    {
-        "shortcut": "vba",
-        "phrase": "ば"
     },
     {
         "shortcut": "vba",
@@ -673,15 +337,7 @@
     },
     {
         "shortcut": "vbi",
-        "phrase": "び"
-    },
-    {
-        "shortcut": "vbi",
         "phrase": "ビ"
-    },
-    {
-        "shortcut": "vbu",
-        "phrase": "ぶ"
     },
     {
         "shortcut": "vbu",
@@ -689,15 +345,7 @@
     },
     {
         "shortcut": "vbe",
-        "phrase": "べ"
-    },
-    {
-        "shortcut": "vbe",
         "phrase": "ベ"
-    },
-    {
-        "shortcut": "vbo",
-        "phrase": "ぼ"
     },
     {
         "shortcut": "vbo",
@@ -705,15 +353,7 @@
     },
     {
         "shortcut": "vbya",
-        "phrase": "びゃ"
-    },
-    {
-        "shortcut": "vbya",
         "phrase": "ビャ"
-    },
-    {
-        "shortcut": "vbyu",
-        "phrase": "びゅ"
     },
     {
         "shortcut": "vbyu",
@@ -721,15 +361,7 @@
     },
     {
         "shortcut": "vbye",
-        "phrase": "びぇ"
-    },
-    {
-        "shortcut": "vbye",
         "phrase": "ビェ"
-    },
-    {
-        "shortcut": "vbyo",
-        "phrase": "びょ"
     },
     {
         "shortcut": "vbyo",
@@ -737,15 +369,7 @@
     },
     {
         "shortcut": "vpa",
-        "phrase": "ぱ"
-    },
-    {
-        "shortcut": "vpa",
         "phrase": "パ"
-    },
-    {
-        "shortcut": "vpi",
-        "phrase": "ぴ"
     },
     {
         "shortcut": "vpi",
@@ -753,15 +377,7 @@
     },
     {
         "shortcut": "vpu",
-        "phrase": "ぷ"
-    },
-    {
-        "shortcut": "vpu",
         "phrase": "プ"
-    },
-    {
-        "shortcut": "vpe",
-        "phrase": "ぺ"
     },
     {
         "shortcut": "vpe",
@@ -769,15 +385,7 @@
     },
     {
         "shortcut": "vpo",
-        "phrase": "ぽ"
-    },
-    {
-        "shortcut": "vpo",
         "phrase": "ポ"
-    },
-    {
-        "shortcut": "vpya",
-        "phrase": "ぴゃ"
     },
     {
         "shortcut": "vpya",
@@ -785,15 +393,7 @@
     },
     {
         "shortcut": "vpyu",
-        "phrase": "ぴゅ"
-    },
-    {
-        "shortcut": "vpyu",
         "phrase": "ピュ"
-    },
-    {
-        "shortcut": "vpye",
-        "phrase": "ぴぇ"
     },
     {
         "shortcut": "vpye",
@@ -801,15 +401,7 @@
     },
     {
         "shortcut": "vpyo",
-        "phrase": "ぴょ"
-    },
-    {
-        "shortcut": "vpyo",
         "phrase": "ピョ"
-    },
-    {
-        "shortcut": "vma",
-        "phrase": "ま"
     },
     {
         "shortcut": "vma",
@@ -817,15 +409,7 @@
     },
     {
         "shortcut": "vmi",
-        "phrase": "み"
-    },
-    {
-        "shortcut": "vmi",
         "phrase": "ミ"
-    },
-    {
-        "shortcut": "vmu",
-        "phrase": "む"
     },
     {
         "shortcut": "vmu",
@@ -833,15 +417,7 @@
     },
     {
         "shortcut": "vme",
-        "phrase": "め"
-    },
-    {
-        "shortcut": "vme",
         "phrase": "メ"
-    },
-    {
-        "shortcut": "vmo",
-        "phrase": "も"
     },
     {
         "shortcut": "vmo",
@@ -849,15 +425,7 @@
     },
     {
         "shortcut": "vmya",
-        "phrase": "みゃ"
-    },
-    {
-        "shortcut": "vmya",
         "phrase": "ミャ"
-    },
-    {
-        "shortcut": "vmyu",
-        "phrase": "みゅ"
     },
     {
         "shortcut": "vmyu",
@@ -865,15 +433,7 @@
     },
     {
         "shortcut": "vmye",
-        "phrase": "みぇ"
-    },
-    {
-        "shortcut": "vmye",
         "phrase": "ミェ"
-    },
-    {
-        "shortcut": "vmyo",
-        "phrase": "みょ"
     },
     {
         "shortcut": "vmyo",
@@ -881,15 +441,7 @@
     },
     {
         "shortcut": "vya",
-        "phrase": "や"
-    },
-    {
-        "shortcut": "vya",
         "phrase": "ヤ"
-    },
-    {
-        "shortcut": "vyo",
-        "phrase": "よ"
     },
     {
         "shortcut": "vyo",
@@ -897,15 +449,7 @@
     },
     {
         "shortcut": "vyu",
-        "phrase": "ゆ"
-    },
-    {
-        "shortcut": "vyu",
         "phrase": "ユ"
-    },
-    {
-        "shortcut": "vra",
-        "phrase": "ら"
     },
     {
         "shortcut": "vra",
@@ -913,15 +457,7 @@
     },
     {
         "shortcut": "vri",
-        "phrase": "り"
-    },
-    {
-        "shortcut": "vri",
         "phrase": "リ"
-    },
-    {
-        "shortcut": "vru",
-        "phrase": "る"
     },
     {
         "shortcut": "vru",
@@ -929,15 +465,7 @@
     },
     {
         "shortcut": "vre",
-        "phrase": "れ"
-    },
-    {
-        "shortcut": "vre",
         "phrase": "レ"
-    },
-    {
-        "shortcut": "vro",
-        "phrase": "ろ"
     },
     {
         "shortcut": "vro",
@@ -945,15 +473,7 @@
     },
     {
         "shortcut": "vrya",
-        "phrase": "りゃ"
-    },
-    {
-        "shortcut": "vrya",
         "phrase": "リャ"
-    },
-    {
-        "shortcut": "vryu",
-        "phrase": "りゅ"
     },
     {
         "shortcut": "vryu",
@@ -961,15 +481,7 @@
     },
     {
         "shortcut": "vrye",
-        "phrase": "りぇ"
-    },
-    {
-        "shortcut": "vrye",
         "phrase": "リェ"
-    },
-    {
-        "shortcut": "vryo",
-        "phrase": "りょ"
     },
     {
         "shortcut": "vryo",
@@ -977,15 +489,7 @@
     },
     {
         "shortcut": "vwa",
-        "phrase": "わ"
-    },
-    {
-        "shortcut": "vwa",
         "phrase": "ワ"
-    },
-    {
-        "shortcut": "vwi",
-        "phrase": "ゐ"
     },
     {
         "shortcut": "vwi",
@@ -993,15 +497,7 @@
     },
     {
         "shortcut": "vwe",
-        "phrase": "ゑ"
-    },
-    {
-        "shortcut": "vwe",
         "phrase": "ヱ"
-    },
-    {
-        "shortcut": "vwo",
-        "phrase": "を"
     },
     {
         "shortcut": "vwo",
@@ -1009,15 +505,7 @@
     },
     {
         "shortcut": "vva",
-        "phrase": "ゔぁ"
-    },
-    {
-        "shortcut": "vva",
         "phrase": "ヴァ"
-    },
-    {
-        "shortcut": "vvi",
-        "phrase": "ヴぃ"
     },
     {
         "shortcut": "vvi",
@@ -1025,15 +513,7 @@
     },
     {
         "shortcut": "vvu",
-        "phrase": "ゔ"
-    },
-    {
-        "shortcut": "vvu",
         "phrase": "ヴ"
-    },
-    {
-        "shortcut": "vve",
-        "phrase": "ゔぇ"
     },
     {
         "shortcut": "vve",
@@ -1041,31 +521,15 @@
     },
     {
         "shortcut": "vvo",
-        "phrase": "ゔぉ"
-    },
-    {
-        "shortcut": "vvo",
         "phrase": "ヴォ"
     },
     {
         "shortcut": "vnn",
-        "phrase": "ん"
-    },
-    {
-        "shortcut": "vnn",
         "phrase": "ン"
     },
     {
         "shortcut": "vn",
-        "phrase": "ん"
-    },
-    {
-        "shortcut": "vn",
         "phrase": "ン"
-    },
-    {
-        "shortcut": "vtt",
-        "phrase": "っ"
     },
     {
         "shortcut": "vtt",
@@ -1077,15 +541,7 @@
     },
     {
         "shortcut": "vxa",
-        "phrase": "ぁ"
-    },
-    {
-        "shortcut": "vxa",
         "phrase": "ァ"
-    },
-    {
-        "shortcut": "vxi",
-        "phrase": "ぃ"
     },
     {
         "shortcut": "vxi",
@@ -1093,15 +549,7 @@
     },
     {
         "shortcut": "vxu",
-        "phrase": "ぅ"
-    },
-    {
-        "shortcut": "vxu",
         "phrase": "ゥ"
-    },
-    {
-        "shortcut": "vxe",
-        "phrase": "ぇ"
     },
     {
         "shortcut": "vxe",
@@ -1109,15 +557,7 @@
     },
     {
         "shortcut": "vxo",
-        "phrase": "ぉ"
-    },
-    {
-        "shortcut": "vxo",
         "phrase": "ォ"
-    },
-    {
-        "shortcut": "vxka",
-        "phrase": "ゕ"
     },
     {
         "shortcut": "vxka",
@@ -1125,15 +565,7 @@
     },
     {
         "shortcut": "vxke",
-        "phrase": "ゖ"
-    },
-    {
-        "shortcut": "vxke",
         "phrase": "ヶ"
-    },
-    {
-        "shortcut": "vxwa",
-        "phrase": "ゎ"
     },
     {
         "shortcut": "vxwa",
@@ -1141,23 +573,11 @@
     },
     {
         "shortcut": "vxya",
-        "phrase": "ゃ"
-    },
-    {
-        "shortcut": "vxya",
         "phrase": "ャ"
     },
     {
         "shortcut": "vxyu",
-        "phrase": "ゅ"
-    },
-    {
-        "shortcut": "vxyu",
         "phrase": "ュ"
-    },
-    {
-        "shortcut": "vxyo",
-        "phrase": "ょ"
     },
     {
         "shortcut": "vxyo",
