@@ -40,6 +40,10 @@
         "phrase": "🖱️"
     },
     {
+        "shortcut": "istick",
+        "phrase": "🕹️"
+    },
+    {
         "shortcut": "ichestnut",
         "phrase": "🌰"
     }
