@@ -8,12 +8,24 @@
         "phrase": "α"
     },
     {
+        "shortcut": "ialpha",
+        "phrase": "ᵅ"
+    },
+    {
         "shortcut": "ibeta",
         "phrase": "Β"
     },
     {
         "shortcut": "ibeta",
         "phrase": "β"
+    },
+    {
+        "shortcut": "ibeta",
+        "phrase": "ᵝ"
+    },
+    {
+        "shortcut": "ibeta",
+        "phrase": "ᵦ"
     },
     {
         "shortcut": "igamma",
