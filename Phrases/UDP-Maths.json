@@ -145,6 +145,10 @@
     },
     {
         "shortcut": "iplus",
+        "phrase": "±"
+    },
+    {
+        "shortcut": "iplus",
         "phrase": "₊"
     },
     {
@@ -154,6 +158,10 @@
     {
         "shortcut": "iminus",
         "phrase": "➖"
+    },
+    {
+        "shortcut": "iminus",
+        "phrase": "±"
     },
     {
         "shortcut": "iminus",
