@@ -8,36 +8,68 @@
         "phrase": "✄"
     },
     {
-        "shortcut": "icheck",
-        "phrase": "✓"
-    },
-    {
-        "shortcut": "icheck",
-        "phrase": "✔"
-    },
-    {
-        "shortcut": "icheck",
-        "phrase": "✕"
-    },
-    {
-        "shortcut": "icheck",
-        "phrase": "✖"
-    },
-    {
         "shortcut": "ibox",
         "phrase": "☐"
     },
     {
-        "shortcut": "ibox",
+        "shortcut": "iok",
+        "phrase": "✓"
+    },
+    {
+        "shortcut": "iok",
+        "phrase": "✔"
+    },
+    {
+        "shortcut": "iok",
+        "phrase": "🗸"
+    },
+    {
+        "shortcut": "iok",
         "phrase": "☑"
     },
     {
-        "shortcut": "ibox",
+        "shortcut": "iok",
+        "phrase": "🗹"
+    },
+    {
+        "shortcut": "iko",
+        "phrase": "✕"
+    },
+    {
+        "shortcut": "iko",
+        "phrase": "✖"
+    },
+    {
+        "shortcut": "iko",
+        "phrase": "✗"
+    },
+    {
+        "shortcut": "iko",
+        "phrase": "✘"
+    },
+    {
+        "shortcut": "iko",
+        "phrase": "🗴"
+    },
+    {
+        "shortcut": "iko",
+        "phrase": "🗶"
+    },
+    {
+        "shortcut": "iko",
         "phrase": "☒"
     },
     {
-        "shortcut": "ibox",
-        "phrase": "✗"
+        "shortcut": "iko",
+        "phrase": "⮽"
+    },
+    {
+        "shortcut": "iko",
+        "phrase": "🗵"
+    },
+    {
+        "shortcut": "iko",
+        "phrase": "🗷"
     },
     {
         "shortcut": "ibar",
@@ -53,15 +85,19 @@
     },
     {
         "shortcut": "isquare",
-        "phrase": "□"
+        "phrase": "▢"
     },
     {
         "shortcut": "icircle",
-        "phrase": "○"
+        "phrase": "◯"
     },
     {
         "shortcut": "itriangle",
-        "phrase": "△"
+        "phrase": "🛆"
+    },
+    {
+        "shortcut": "icross",
+        "phrase": "🗙"
     },
     {
         "shortcut": "imale",
@@ -164,6 +200,10 @@
         "phrase": "₍"
     },
     {
+        "shortcut": "izkh",
+        "phrase": "🗦"
+    },
+    {
         "shortcut": "iykh",
         "phrase": "」"
     },
@@ -186,6 +226,10 @@
     {
         "shortcut": "iykh",
         "phrase": "₎"
+    },
+    {
+        "shortcut": "iykh",
+        "phrase": "🗧"
     },
     {
         "shortcut": "isharp",
