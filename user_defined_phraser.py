@@ -3,12 +3,12 @@ import os
 import consoleiotools as cit
 import consolecmdtools as cct
 
-import classes.macphraser
-import classes.msphraser
-import classes.jsonphraser
-import classes.txtphraser
-import classes.htmlphraser
-import classes.phraser
+from phrasers.phraser import Phraser
+from phrasers.jsonphraser import JsonPhraser
+from phrasers.macphraser import MacPhraser
+from phrasers.txtphraser import TxtPhraser
+from phrasers.msphraser import MsPhraser
+from phrasers.htmlphraser import HtmlPhraser
 
 __version__ = "2.1.0"
 
@@ -16,11 +16,11 @@ PROJECT_DIR = cct.get_path(__file__, parent=True)
 GENERATED_DIR = os.path.join(PROJECT_DIR, "GeneratedUDP")
 PHRASES_DIR = os.path.join(PROJECT_DIR, "Phrases")
 AVAIL_PHRASER = {phraser.name: phraser for phraser in (
-    classes.jsonphraser.JsonPhraser,
-    classes.macphraser.MacPhraser,
-    classes.txtphraser.TxtPhraser,
-    classes.msphraser.MsPhraser,
-    classes.htmlphraser.HtmlPhraser,
+    JsonPhraser,
+    MacPhraser,
+    TxtPhraser,
+    MsPhraser,
+    HtmlPhraser,
 )}
 
 
