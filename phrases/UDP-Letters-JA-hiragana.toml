@@ -1,0 +1,434 @@
+[[phrases]]
+va = "あ"
+
+[[phrases]]
+vi = "い"
+
+[[phrases]]
+vu = "う"
+
+[[phrases]]
+ve = "え"
+
+[[phrases]]
+vo = "お"
+
+[[phrases]]
+vka = "か"
+
+[[phrases]]
+vki = "き"
+
+[[phrases]]
+vku = "く"
+
+[[phrases]]
+vke = "け"
+
+[[phrases]]
+vko = "こ"
+
+[[phrases]]
+vkya = "きゃ"
+
+[[phrases]]
+vkyu = "きゅ"
+
+[[phrases]]
+vkye = "きぇ"
+
+[[phrases]]
+vkyo = "きょ"
+
+[[phrases]]
+vga = "が"
+
+[[phrases]]
+vgi = "ぎ"
+
+[[phrases]]
+vgu = "ぐ"
+
+[[phrases]]
+vge = "げ"
+
+[[phrases]]
+vgo = "ご"
+
+[[phrases]]
+vgya = "ぎゃ"
+
+[[phrases]]
+vgyu = "ぎゅ"
+
+[[phrases]]
+vgye = "ぎぇ"
+
+[[phrases]]
+vgyo = "ぎょ"
+
+[[phrases]]
+vsa = "さ"
+
+[[phrases]]
+vshi = "し"
+
+[[phrases]]
+vsu = "す"
+
+[[phrases]]
+vse = "せ"
+
+[[phrases]]
+vso = "そ"
+
+[[phrases]]
+vsha = "しゃ"
+
+[[phrases]]
+vshu = "しゅ"
+
+[[phrases]]
+vshe = "しぇ"
+
+[[phrases]]
+vsho = "しょ"
+
+[[phrases]]
+vza = "ざ"
+
+[[phrases]]
+vji = "じ"
+
+[[phrases]]
+vzu = "ず"
+
+[[phrases]]
+vze = "ぜ"
+
+[[phrases]]
+vzo = "ぞ"
+
+[[phrases]]
+vja = "じゃ"
+
+[[phrases]]
+vzi = "ずぃ"
+
+[[phrases]]
+vju = "じゅ"
+
+[[phrases]]
+vje = "じぇ"
+
+[[phrases]]
+vjo = "じょ"
+
+[[phrases]]
+vta = "た"
+
+[[phrases]]
+vchi = "ち"
+
+[[phrases]]
+vtsu = "つ"
+
+[[phrases]]
+vte = "て"
+
+[[phrases]]
+vto = "と"
+
+[[phrases]]
+vtsa = "つぁ"
+
+[[phrases]]
+vtsi = "つぃ"
+
+[[phrases]]
+vtse = "つぇ"
+
+[[phrases]]
+vtso = "つぉ"
+
+[[phrases]]
+vcha = "ちゃ"
+
+[[phrases]]
+vchu = "ちゅ"
+
+[[phrases]]
+vche = "ちぇ"
+
+[[phrases]]
+vcho = "ちょ"
+
+[[phrases]]
+vda = "だ"
+
+[[phrases]]
+vdji = "ぢ"
+
+[[phrases]]
+vdu = "づ"
+
+[[phrases]]
+vde = "で"
+
+[[phrases]]
+vdo = "ど"
+
+[[phrases]]
+vdja = "ぢゃ"
+
+[[phrases]]
+vdi = "でぃ"
+
+[[phrases]]
+vdju = "ぢゅ"
+
+[[phrases]]
+vdje = "ぢぇ"
+
+[[phrases]]
+vdjo = "ぢょ"
+
+[[phrases]]
+vna = "な"
+
+[[phrases]]
+vni = "に"
+
+[[phrases]]
+vnu = "ぬ"
+
+[[phrases]]
+vne = "ね"
+
+[[phrases]]
+vno = "の"
+
+[[phrases]]
+vnya = "にゃ"
+
+[[phrases]]
+vnyu = "にゅ"
+
+[[phrases]]
+vnye = "にぇ"
+
+[[phrases]]
+vnyo = "にょ"
+
+[[phrases]]
+vha = "は"
+
+[[phrases]]
+vhi = "ひ"
+
+[[phrases]]
+vfu = "ふ"
+
+[[phrases]]
+vhe = "へ"
+
+[[phrases]]
+vho = "ほ"
+
+[[phrases]]
+vhya = "ひゃ"
+
+[[phrases]]
+vhyu = "ひゅ"
+
+[[phrases]]
+vhye = "ひぇ"
+
+[[phrases]]
+vhyo = "ひょ"
+
+[[phrases]]
+vba = "ば"
+
+[[phrases]]
+vbi = "び"
+
+[[phrases]]
+vbu = "ぶ"
+
+[[phrases]]
+vbe = "べ"
+
+[[phrases]]
+vbo = "ぼ"
+
+[[phrases]]
+vbya = "びゃ"
+
+[[phrases]]
+vbyu = "びゅ"
+
+[[phrases]]
+vbye = "びぇ"
+
+[[phrases]]
+vbyo = "びょ"
+
+[[phrases]]
+vpa = "ぱ"
+
+[[phrases]]
+vpi = "ぴ"
+
+[[phrases]]
+vpu = "ぷ"
+
+[[phrases]]
+vpe = "ぺ"
+
+[[phrases]]
+vpo = "ぽ"
+
+[[phrases]]
+vpya = "ぴゃ"
+
+[[phrases]]
+vpyu = "ぴゅ"
+
+[[phrases]]
+vpye = "ぴぇ"
+
+[[phrases]]
+vpyo = "ぴょ"
+
+[[phrases]]
+vma = "ま"
+
+[[phrases]]
+vmi = "み"
+
+[[phrases]]
+vmu = "む"
+
+[[phrases]]
+vme = "め"
+
+[[phrases]]
+vmo = "も"
+
+[[phrases]]
+vmya = "みゃ"
+
+[[phrases]]
+vmyu = "みゅ"
+
+[[phrases]]
+vmye = "みぇ"
+
+[[phrases]]
+vmyo = "みょ"
+
+[[phrases]]
+vya = "や"
+
+[[phrases]]
+vyo = "よ"
+
+[[phrases]]
+vyu = "ゆ"
+
+[[phrases]]
+vra = "ら"
+
+[[phrases]]
+vri = "り"
+
+[[phrases]]
+vru = "る"
+
+[[phrases]]
+vre = "れ"
+
+[[phrases]]
+vro = "ろ"
+
+[[phrases]]
+vrya = "りゃ"
+
+[[phrases]]
+vryu = "りゅ"
+
+[[phrases]]
+vrye = "りぇ"
+
+[[phrases]]
+vryo = "りょ"
+
+[[phrases]]
+vwa = "わ"
+
+[[phrases]]
+vwi = "ゐ"
+
+[[phrases]]
+vwe = "ゑ"
+
+[[phrases]]
+vwo = "を"
+
+[[phrases]]
+vva = "ゔぁ"
+
+[[phrases]]
+vvi = "ゔぃ"
+
+[[phrases]]
+vvu = "ゔ"
+
+[[phrases]]
+vve = "ゔぇ"
+
+[[phrases]]
+vvo = "ゔぉ"
+
+[[phrases]]
+vnn = "ん"
+
+[[phrases]]
+vn = "ん"
+
+[[phrases]]
+vtt = "っ"
+
+[[phrases]]
+vxa = "ぁ"
+
+[[phrases]]
+vxi = "ぃ"
+
+[[phrases]]
+vxu = "ぅ"
+
+[[phrases]]
+vxe = "ぇ"
+
+[[phrases]]
+vxo = "ぉ"
+
+[[phrases]]
+vxka = "ゕ"
+
+[[phrases]]
+vxke = "ゖ"
+
+[[phrases]]
+vxwa = "ゎ"
+
+[[phrases]]
+vxya = "ゃ"
+
+[[phrases]]
+vxyu = "ゅ"
+
+[[phrases]]
+vxyo = "ょ"

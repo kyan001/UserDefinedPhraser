@@ -1,0 +1,68 @@
+[[phrases]]
+iup = "↑"
+
+[[phrases]]
+iup = "▲"
+
+[[phrases]]
+iup = "↖"
+
+[[phrases]]
+iup = "↗"
+
+[[phrases]]
+iup = "↕"
+
+[[phrases]]
+idown = "🔻"
+
+[[phrases]]
+idown = "↓"
+
+[[phrases]]
+idown = "▼"
+
+[[phrases]]
+idown = "↙"
+
+[[phrases]]
+idown = "↘"
+
+[[phrases]]
+idown = "↕"
+
+[[phrases]]
+ileft = "←"
+
+[[phrases]]
+ileft = "◀"
+
+[[phrases]]
+ileft = "↖"
+
+[[phrases]]
+ileft = "↙"
+
+[[phrases]]
+ileft = "↔"
+
+[[phrases]]
+iright = "→"
+
+[[phrases]]
+iright = "▶"
+
+[[phrases]]
+iright = "↗"
+
+[[phrases]]
+iright = "↘"
+
+[[phrases]]
+iright = "↔"
+
+[[phrases]]
+iround = "↺"
+
+[[phrases]]
+iround = "↻"

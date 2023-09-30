@@ -19,6 +19,7 @@ python3 run_parser.py
 |-- Phrasers/  # Parser classes for decode from target format to python dict and encode python dict to target format.
     |-- phraser.py  # Base class for all the phraser classes.
     |-- jsonphraser.py  # Parse `.json` file.
+    |-- tomlphraser.py  # Parse `.toml` file.
     |-- macphraser.py  # Parse macOS `.plist` file.
     |-- msphraser.py  # Parse Win10 Pinyin IME `.dat` file.
     |-- txtphraser.py  # Parse QQPinyin `.ini` file.
@@ -26,6 +27,7 @@ python3 run_parser.py
     |-- htmlphraser_tpl.py  # Template for `.html` file generation.
 |-- Phrases/  # User Defined Phrases in JSON format, as the input to conversions.
     |-- UDP-*.json  # User Defined Phrases in JSON format.
+    |-- UDP-*.toml  # User Defined Phrases in TOML format.
 |-- GeneratedUDP/  # This Folder holds the generated files. You can delete these files any time, they are not important.
 |-- user_defined_phraser.py  # Main entry of program. Convert `.json` or `.toml` files to other formats.
 ```

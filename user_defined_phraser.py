@@ -6,6 +6,7 @@ import consolecmdtools as cct
 
 from phrasers.phraser import Phraser
 from phrasers.jsonphraser import JsonPhraser
+from phrasers.tomlphraser import TomlPhraser
 from phrasers.macphraser import MacPhraser
 from phrasers.txtphraser import TxtPhraser
 from phrasers.msphraser import MsPhraser
@@ -41,7 +42,21 @@ def get_phrase_files(dir: str = PHRASES_DIR, format: str = DEFAULT_FORMAT) -> li
     return phrase_files
 
 
+def get_phraser(name: str = DEFAULT_FORMAT, phrases: list = []) -> Phraser:
+    """Get phraser instance.
+
+    Args:
+        name (str, optional): Phraser name. Defaults to DEFAULT_FORMAT.
+        phrases (list, optional): Phrases list. Defaults to [].
+
+    Returns:
+        Phraser: Phraser instance.
+    """
+    if name not in AVAIL_PHRASER:
         raise Exception(f"Phraser `{name}` is not available!")
+    return AVAIL_PHRASER[name](phrases)
+
+
 def load_phrases_from_phraser(filepath: str, format: str = DEFAULT_FORMAT) -> list:
     """Load phrases from given json file.
 
@@ -52,7 +67,7 @@ def load_phrases_from_phraser(filepath: str, format: str = DEFAULT_FORMAT) -> li
         list: Phrases list.
     """
     cit.info(f"Parsing `{cct.get_path(filepath, basename=True)}`")
-    phraser = classes.jsonphraser.JsonPhraser()
+    phraser = AVAIL_PHRASER[format]()
     phraser.from_file(filepath)
     return phraser.phrases
 
@@ -66,27 +81,25 @@ def load_all_phrases(files: list) -> list:
     Returns:
         list: Phrases list.
     """
-    phrases = [phrase for filepath in files for phrase in load_phrases_from_json(filepath)]
+    phrases = [phrase for filepath in files for phrase in load_phrases_from_phraser(filepath)]
     cit.info(f'Loaded {len(phrases)} phrases')
     return phrases
 
 
-def make_phraser(phraser_name: str, phrases: list) -> classes.phraser.Phraser:
-    """Make phraser instance.
-
-    Args:
-        phraser_name (str): Phraser name.
-        cit.ask(f"'{filepath}' is already exists. Overwrite it?")
-        if cit.get_choice(['Yes', 'No']) == 'Yes':
-            os.remove(filepath)
-            return True
+def generate_files(phraser: Phraser, filename: str):
+    """Generate phrases file."""
+    def check_file_existance(filepath: str):
+        """Check if file exists, and ask user to overwrite it or not."""
+        if os.path.exists(filepath):
+            cit.ask(f"'{filepath}' is already exists. Overwrite it?")
+            if cit.get_choice(['Yes', 'No']) == 'Yes':
+                os.remove(filepath)
+                return True
+            else:
+                return False
         else:
-            return False
-    else:
-        return None
+            return None
 
-
-def generate_files(phraser: classes.phraser.Phraser, filename: str):
     dir = os.path.join(GENERATED_DIR, phraser.name)
     if not os.path.exists(dir):
         os.makedirs(dir)
@@ -100,16 +113,16 @@ def generate_files(phraser: classes.phraser.Phraser, filename: str):
 
 @cit.as_session
 def assembly_line(phraser_name: str, separate: bool = False):
-    phrases_files = get_phrases_files()
+    phrases_files = get_phrase_files()
     if separate:
         for phrases_file in phrases_files:
-            phrases = load_phrases_from_json(phrases_file)
-            phraser = make_phraser(phraser_name, phrases)
+            phrases = load_phrases_from_phraser(phrases_file)
+            phraser = get_phraser(phraser_name, phrases)
             filename = cct.get_path(phrases_file, basename=True).replace(cct.get_path(phrases_file, ext=True), phraser.ext)
             generate_files(phraser, filename)
     else:
         phrases = load_all_phrases(phrases_files)
-        phraser = make_phraser(phraser_name, phrases)
+        phraser = get_phraser(phraser_name, phrases)
         filename = "UserDefinedPhrase." + phraser.ext
         generate_files(phraser, filename)
 
@@ -129,6 +142,8 @@ def create_jobs():
 if __name__ == "__main__":
     cit.info(f"Output folder: {GENERATED_DIR}")
     cit.info(f"Phrases folder: {PHRASES_DIR}")
-    for filepath in get_phrases_files():
-        cit.markdown(f"|-- `{filepath}`")
+    phrase_files = get_phrase_files()
+    cit.info(f"Phrases files: {len(phrase_files)}")
+    cct.ls_tree(PHRASES_DIR, to_visible=lambda path: fnmatch.fnmatch(path.name, FILENAME_PATTERN))
     create_jobs()
+    cit.pause()

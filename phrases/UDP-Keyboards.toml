@@ -1,0 +1,41 @@
+[[phrases]]
+ishift = "⇧"
+
+[[phrases]]
+ictrl = "⌃"
+
+[[phrases]]
+iopt = "⌥"
+
+[[phrases]]
+icmd = "⌘"
+
+[[phrases]]
+iesc = "⎋"
+
+[[phrases]]
+iesc = "␛"
+
+[[phrases]]
+icaps = "⇪"
+
+[[phrases]]
+idel = "⌫"
+
+[[phrases]]
+idel = "␡"
+
+[[phrases]]
+idel = "␈"
+
+[[phrases]]
+iret = "↩︎"
+
+[[phrases]]
+ispace = "␣"
+
+[[phrases]]
+ispace = "␠"
+
+[[phrases]]
+itab = "⇥"
