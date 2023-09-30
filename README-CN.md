@@ -18,16 +18,16 @@ python3 run_parser.py
 ```sh
 |-- Phrasers/  # 将目标格式解析为 python 字典，并将 python 字典转为目标格式。
     |-- phraser.py  # 所有 Phraser 类的基类
-    |-- macphraser.py  # 负责 macOS `.plist` 文件的解析。
     |-- jsonphraser.py  # 负责 json 格式文件的解析。
+    |-- macphraser.py  # 负责 macOS `.plist` 文件的解析。
     |-- msphraser.py  # 负责 Win10 拼音输入法 `.dat` 文件的解析。
     |-- txtphraser.py  # 负责 QQ 拼音 `.ini` 文件的解析。
     |-- htmlphraser.py  # 负责生成 `.html` 文件。
     |-- htmlphraser_tpl.py  # 负责为生成的 `.html` 文件提供模板
 |-- Phrases/  # 用户定义的短语，这些文件是所有生成文件的根本。
-    |-- UDP-*.json
+    |-- UDP-*.json  # 仅当使用 .json 存储的 UDP 文件。
 |-- GeneratedUDP/  # 此目录存放生成的文件，里面的文件可以随时删除。
-|-- run_parser.py  # 程序总入口，负责将 `.json` 的格式转为其他格式。
+|-- user_defined_phraser.py  # 程序总入口，负责将 `.json` 或 `.toml` 的格式转为其他格式。
 ```
 
 * 所有 Python Dict 和 JSON 的格式均为：`{ 'phrase': "<PHRASE>", 'shortcut': "<SHORTCUT>" }`

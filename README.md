@@ -18,16 +18,16 @@ python3 run_parser.py
 ```sh
 |-- Phrasers/  # Parser classes for decode from target format to python dict and encode python dict to target format.
     |-- phraser.py  # Base class for all the phraser classes.
-    |-- macphraser.py  # Parse macOS `.plist` file.
     |-- jsonphraser.py  # Parse `.json` file.
+    |-- macphraser.py  # Parse macOS `.plist` file.
     |-- msphraser.py  # Parse Win10 Pinyin IME `.dat` file.
     |-- txtphraser.py  # Parse QQPinyin `.ini` file.
     |-- htmlpharser.py  # Generate `.html` file.
     |-- htmlphraser_tpl.py  # Template for `.html` file generation.
 |-- Phrases/  # User Defined Phrases in JSON format, as the input to conversions.
-    |-- UDP-*.json
+    |-- UDP-*.json  # User Defined Phrases in JSON format.
 |-- GeneratedUDP/  # This Folder holds the generated files. You can delete these files any time, they are not important.
-|-- run_parser.py  # Main entry of program. Convert `.json` files to other formats.
+|-- user_defined_phraser.py  # Main entry of program. Convert `.json` or `.toml` files to other formats.
 ```
 
 * All Python Dict and JSON format is: `{ 'phrase': "<PHRASE>", 'shortcut': "<SHORTCUT>" }`
