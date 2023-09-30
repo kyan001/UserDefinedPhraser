@@ -1,4 +1,5 @@
 import os
+import fnmatch
 
 import consoleiotools as cit
 import consolecmdtools as cct
@@ -10,21 +11,24 @@ from phrasers.txtphraser import TxtPhraser
 from phrasers.msphraser import MsPhraser
 from phrasers.htmlphraser import HtmlPhraser
 
-__version__ = "2.1.0"
+__version__ = "3.0.0"
 
 PROJECT_DIR = cct.get_path(__file__, parent=True)
 GENERATED_DIR = os.path.join(PROJECT_DIR, "GeneratedUDP")
 PHRASES_DIR = os.path.join(PROJECT_DIR, "Phrases")
 AVAIL_PHRASER = {phraser.name: phraser for phraser in (
     JsonPhraser,
+    TomlPhraser,
     MacPhraser,
     TxtPhraser,
     MsPhraser,
     HtmlPhraser,
 )}
+DEFAULT_FORMAT = "TOML"
+FILENAME_PATTERN = f"UDP-*.{AVAIL_PHRASER[DEFAULT_FORMAT].ext}"
 
 
-def get_phrases_files(dir: str = PHRASES_DIR) -> list:
+def get_phrase_files(dir: str = PHRASES_DIR, format: str = DEFAULT_FORMAT) -> list:
     """Get all phrases files.
 
     Args:
@@ -33,12 +37,12 @@ def get_phrases_files(dir: str = PHRASES_DIR) -> list:
     Returns:
         List[str]: Phrases files list.
     """
-    all_files = os.listdir(dir)
-    phrases_files = [filename for filename in all_files if filename.startswith('UDP-') and filename.endswith('.json')]
-    return [os.path.join(dir, filename) for filename in phrases_files]
+    phrase_files = cct.filter_dir(dir, filter=lambda path: fnmatch.fnmatch(path.name, FILENAME_PATTERN))
+    return phrase_files
 
 
-def load_phrases_from_json(filepath: str) -> list:
+        raise Exception(f"Phraser `{name}` is not available!")
+def load_phrases_from_phraser(filepath: str, format: str = DEFAULT_FORMAT) -> list:
     """Load phrases from given json file.
 
     Args:
@@ -72,19 +76,6 @@ def make_phraser(phraser_name: str, phrases: list) -> classes.phraser.Phraser:
 
     Args:
         phraser_name (str): Phraser name.
-        phrases (list): Phrases list.
-
-    Returns:
-        classes.phraser.Phraser: Phraser instance.
-    """
-    if phraser_name not in AVAIL_PHRASER:
-        raise Exception(f"Phraser `{phraser_name}` is not available!")
-    Phraser = AVAIL_PHRASER[phraser_name]
-    return Phraser(phrases)
-
-
-def check_file_existance(filepath: str):
-    if os.path.exists(filepath):
         cit.ask(f"'{filepath}' is already exists. Overwrite it?")
         if cit.get_choice(['Yes', 'No']) == 'Yes':
             os.remove(filepath)

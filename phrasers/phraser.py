@@ -2,8 +2,8 @@ class Phraser:
     ext = ''  # filename extension
     name = ''  # phraser name
 
-    def __init__(self, phrases: list = []):
-        self.phrases = phrases  # save all the "phrase & shortcut".
+    def __init__(self, phrases: list = None):  # cannot use [] as default value, it will be shared between instances.
+        self.phrases = phrases or []  # save all the "phrase & shortcut".
 
     def __str__(self):
         return str(self.phrases)
