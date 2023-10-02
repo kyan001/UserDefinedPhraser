@@ -35,8 +35,8 @@ class TomlPhraser(phraser.Phraser):
 
     def from_toml(self, toml_str: str):
         for phrase in tomlkit.loads(toml_str).get("phrases"):
-            for k, v in phrase.items():
-                self.phrases.append({"shortcut": k, "phrase": v})
+            for k, v in phrase.items():  # k is `str`, v is `tomlkit.items.String`
+                self.phrases.append({"shortcut": str(k), "phrase": str(v)})
 
     def to_toml(self):
         toml_obj = {"phrases": [{item['shortcut']: item['phrase']} for item in self.phrases]}
