@@ -14,13 +14,7 @@ iok = "✓"
 iok = "✔"
 
 [[phrases]]
-iok = "🗸"
-
-[[phrases]]
 iok = "☑"
-
-[[phrases]]
-iok = "🗹"
 
 [[phrases]]
 iko = "✕"
@@ -35,22 +29,7 @@ iko = "✗"
 iko = "✘"
 
 [[phrases]]
-iko = "🗴"
-
-[[phrases]]
-iko = "🗶"
-
-[[phrases]]
 iko = "☒"
-
-[[phrases]]
-iko = "⮽"
-
-[[phrases]]
-iko = "🗵"
-
-[[phrases]]
-iko = "🗷"
 
 [[phrases]]
 ibar = "｜"
@@ -68,10 +47,10 @@ isquare = "▢"
 icircle = "◯"
 
 [[phrases]]
-itriangle = "🛆"
+itriangle = "⟁"
 
 [[phrases]]
-icross = "🗙"
+icross = "⛌"
 
 [[phrases]]
 imale = "♂"
@@ -149,9 +128,6 @@ izkh = "⁽"
 izkh = "₍"
 
 [[phrases]]
-izkh = "🗦"
-
-[[phrases]]
 iykh = "」"
 
 [[phrases]]
@@ -168,9 +144,6 @@ iykh = "⁾"
 
 [[phrases]]
 iykh = "₎"
-
-[[phrases]]
-iykh = "🗧"
 
 [[phrases]]
 isharp = "♯"
