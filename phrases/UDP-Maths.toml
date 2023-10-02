@@ -104,9 +104,6 @@ inine = "⑨"
 iinf = "∞"
 
 [[phrases]]
-iplus = "➕"
-
-[[phrases]]
 iplus = "±"
 
 [[phrases]]
@@ -114,9 +111,6 @@ iplus = "₊"
 
 [[phrases]]
 iplus = "⁺"
-
-[[phrases]]
-iminus = "➖"
 
 [[phrases]]
 iminus = "±"
