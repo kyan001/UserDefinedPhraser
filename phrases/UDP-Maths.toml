@@ -149,10 +149,7 @@ idiv = "÷"
 idiv = "∕"
 
 [[phrases]]
-idiv = "⁄"
-
-[[phrases]]
-idiv = "／"
+ifrac = "⁄"
 
 [[phrases]]
 inum = "№"
