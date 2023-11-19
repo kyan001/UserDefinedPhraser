@@ -12,9 +12,9 @@ from phrasers.txtphraser import TxtPhraser
 from phrasers.msphraser import MsPhraser
 from phrasers.htmlphraser import HtmlPhraser
 
-__version__ = "3.0.1"
+__version__ = "3.0.2"
 
-PROJECT_DIR = cct.get_path(__file__, parent=True)
+PROJECT_DIR = cct.get_path(__file__).parent
 GENERATED_DIR = os.path.join(PROJECT_DIR, "GeneratedUDP")
 PHRASES_DIR = os.path.join(PROJECT_DIR, "Phrases")
 AVAIL_PHRASER = {phraser.name: phraser for phraser in (
@@ -38,7 +38,7 @@ def get_phrase_files(dir: str = PHRASES_DIR, format: str = DEFAULT_FORMAT) -> li
     Returns:
         List[str]: Phrases files list.
     """
-    phrase_files = cct.filter_dir(dir, filter=lambda path: fnmatch.fnmatch(path.name, FILENAME_PATTERN))
+    phrase_files = cct.get_paths(dir, filter=lambda path: fnmatch.fnmatch(path.name, FILENAME_PATTERN))
     return phrase_files
 
 
@@ -66,7 +66,7 @@ def load_phrases_from_phraser(filepath: str, format: str = DEFAULT_FORMAT) -> li
     Returns:
         list: Phrases list.
     """
-    cit.info(f"Parsing `{cct.get_path(filepath, basename=True)}`")
+    cit.info(f"Parsing `{cct.get_path(filepath).basename}`")
     phraser = AVAIL_PHRASER[format]()
     phraser.from_file(filepath)
     return phraser.phrases
@@ -118,7 +118,7 @@ def assembly_line(phraser_name: str, separate: bool = False):
         for phrases_file in phrases_files:
             phrases = load_phrases_from_phraser(phrases_file)
             phraser = get_phraser(phraser_name, phrases)
-            filename = cct.get_path(phrases_file, basename=True).replace(cct.get_path(phrases_file, ext=True), phraser.ext)
+            filename = f"{cct.get_path(phrases_file).stem}.{phraser.ext}"
             generate_files(phraser, filename)
     else:
         phrases = load_all_phrases(phrases_files)

@@ -1,20 +1,9 @@
+# small chars
 [[phrases]]
 ixa = "ᵃ"
 
 [[phrases]]
 ixa = "ₐ"
-
-[[phrases]]
-ixa = "ā"
-
-[[phrases]]
-ixa = "á"
-
-[[phrases]]
-ixa = "ǎ"
-
-[[phrases]]
-ixa = "à"
 
 [[phrases]]
 ixb = "ᵇ"
@@ -33,18 +22,6 @@ ixe = "ᵉ"
 
 [[phrases]]
 ixe = "ₔ"
-
-[[phrases]]
-ixe = "ē"
-
-[[phrases]]
-ixe = "é"
-
-[[phrases]]
-ixe = "ě"
-
-[[phrases]]
-ixe = "è"
 
 [[phrases]]
 ixf = "ᶠ"
@@ -67,17 +44,6 @@ ixi = "ⁱ"
 [[phrases]]
 ixi = "ᵎ"
 
-[[phrases]]
-ixi = "ī"
-
-[[phrases]]
-ixi = "í"
-
-[[phrases]]
-ixi = "ǐ"
-
-[[phrases]]
-ixi = "ì"
 
 [[phrases]]
 ixj = "ʲ"
@@ -116,18 +82,6 @@ ixo = "ᵒ"
 ixo = "ₒ"
 
 [[phrases]]
-ixo = "ō"
-
-[[phrases]]
-ixo = "ó"
-
-[[phrases]]
-ixo = "ǒ"
-
-[[phrases]]
-ixo = "ò"
-
-[[phrases]]
 ixp = "ᵖ"
 
 [[phrases]]
@@ -158,18 +112,6 @@ ixu = "ᵘ"
 ixu = "ᵤ"
 
 [[phrases]]
-ixu = "ū"
-
-[[phrases]]
-ixu = "ú"
-
-[[phrases]]
-ixu = "ǔ"
-
-[[phrases]]
-ixu = "ù"
-
-[[phrases]]
 ixv = "ᵛ"
 
 [[phrases]]
@@ -183,3 +125,384 @@ ixx = "ˣ"
 
 [[phrases]]
 ixx = "ₓ"
+
+[[phrases]]
+ixy = "ʸ"
+
+[[phrases]]
+ixz = "ᶻ"
+
+# Tones
+[[phrases]]
+ixa = "ā"
+
+[[phrases]]
+ixa = "á"
+
+[[phrases]]
+ixa = "ǎ"
+
+[[phrases]]
+ixa = "à"
+
+[[phrases]]
+ixe = "ē"
+
+[[phrases]]
+ixe = "é"
+
+[[phrases]]
+ixe = "ě"
+
+[[phrases]]
+ixe = "è"
+
+[[phrases]]
+ixi = "ī"
+
+[[phrases]]
+ixi = "í"
+
+[[phrases]]
+ixi = "ǐ"
+
+[[phrases]]
+ixi = "ì"
+
+[[phrases]]
+ixo = "ō"
+
+[[phrases]]
+ixo = "ó"
+
+[[phrases]]
+ixo = "ǒ"
+
+[[phrases]]
+ixo = "ò"
+
+[[phrases]]
+ixu = "ū"
+
+[[phrases]]
+ixu = "ú"
+
+[[phrases]]
+ixu = "ǔ"
+
+[[phrases]]
+ixu = "ù"
+
+# Mathematical Sans-Serif Bold Italic
+[[phrases]]
+ixa = "𝘼"
+
+[[phrases]]
+ixb = "𝘽"
+
+[[phrases]]
+ixc = "𝘾"
+
+[[phrases]]
+ixd = "𝘿"
+
+[[phrases]]
+ixe = "𝙀"
+
+[[phrases]]
+ixf = "𝙁"
+
+[[phrases]]
+ixg = "𝙂"
+
+[[phrases]]
+ixh = "𝙃"
+
+[[phrases]]
+ixi = "𝙄"
+
+[[phrases]]
+ixj = "𝙅"
+
+[[phrases]]
+ixk = "𝙆"
+
+[[phrases]]
+ixl = "𝙇"
+
+[[phrases]]
+ixm = "𝙈"
+
+[[phrases]]
+ixn = "𝙉"
+
+[[phrases]]
+ixo = "𝙊"
+
+[[phrases]]
+ixp = "𝙋"
+
+[[phrases]]
+ixq = "𝙌"
+
+[[phrases]]
+ixr = "𝙍"
+
+[[phrases]]
+ixs = "𝙎"
+
+[[phrases]]
+ixt = "𝙏"
+
+[[phrases]]
+ixu = "𝙐"
+
+[[phrases]]
+ixv = "𝙑"
+
+[[phrases]]
+ixw = "𝙒"
+
+[[phrases]]
+ixx = "𝙓"
+
+[[phrases]]
+ixy = "𝙔"
+
+[[phrases]]
+ixz = "𝙕"
+
+[[phrases]]
+ixa = "𝙖"
+
+[[phrases]]
+ixb = "𝙗"
+
+[[phrases]]
+ixc = "𝙘"
+
+[[phrases]]
+ixd = "𝙙"
+
+[[phrases]]
+ixe = "𝙚"
+
+[[phrases]]
+ixf = "𝙛"
+
+[[phrases]]
+ixg = "𝙜"
+
+[[phrases]]
+ixh = "𝙝"
+
+[[phrases]]
+ixi = "𝙞"
+
+[[phrases]]
+ixj = "𝙟"
+
+[[phrases]]
+ixk = "𝙠"
+
+[[phrases]]
+ixl = "𝙡"
+
+[[phrases]]
+ixm = "𝙢"
+
+[[phrases]]
+ixn = "𝙣"
+
+[[phrases]]
+ixo = "𝙤"
+
+[[phrases]]
+ixp = "𝙥"
+
+[[phrases]]
+ixq = "𝙦"
+
+[[phrases]]
+ixr = "𝙧"
+
+[[phrases]]
+ixs = "𝙨"
+
+[[phrases]]
+ixt = "𝙩"
+
+[[phrases]]
+ixu = "𝙪"
+
+[[phrases]]
+ixv = "𝙫"
+
+[[phrases]]
+ixw = "𝙬"
+
+[[phrases]]
+ixx = "𝙭"
+
+[[phrases]]
+ixy = "𝙮"
+
+[[phrases]]
+ixz = "𝙯"
+
+# Mathematical Script
+[[phrases]]
+ixa = "𝒜"
+
+[[phrases]]
+ixb = "ℬ"
+
+[[phrases]]
+ixc = "𝒞"
+
+[[phrases]]
+ixd = "𝒟"
+
+[[phrases]]
+ixe = "ℰ"
+
+[[phrases]]
+ixf = "ℱ"
+
+[[phrases]]
+ixg = "𝒢"
+
+[[phrases]]
+ixh = "ℋ"
+
+[[phrases]]
+ixi = "ℐ"
+
+[[phrases]]
+ixj = "𝒥"
+
+[[phrases]]
+ixk = "𝒦"
+
+[[phrases]]
+ixl = "ℒ"
+
+[[phrases]]
+ixm = "ℳ"
+
+[[phrases]]
+ixn = "𝒩"
+
+[[phrases]]
+ixo = "𝒪"
+
+[[phrases]]
+ixp = "𝒫"
+
+[[phrases]]
+ixq = "𝒬"
+
+[[phrases]]
+ixr = "ℛ"
+
+[[phrases]]
+ixs = "𝒮"
+
+[[phrases]]
+ixt = "𝒯"
+
+[[phrases]]
+ixu = "𝒰"
+
+[[phrases]]
+ixv = "𝒱"
+
+[[phrases]]
+ixw = "𝒲"
+
+[[phrases]]
+ixx = "𝒳"
+
+[[phrases]]
+ixy = "𝒴"
+
+[[phrases]]
+ixz = "𝒵"
+
+[[phrases]]
+ixa = "𝒶"
+
+[[phrases]]
+ixb = "𝒷"
+
+[[phrases]]
+ixc = "𝒸"
+
+[[phrases]]
+ixd = "𝒹"
+
+[[phrases]]
+ixe = "ℯ"
+
+[[phrases]]
+ixf = "𝒻"
+
+[[phrases]]
+ixg = "ℊ"
+
+[[phrases]]
+ixh = "𝒽"
+
+[[phrases]]
+ixi = "𝒾"
+
+[[phrases]]
+ixj = "𝒿"
+
+[[phrases]]
+ixk = "𝓀"
+
+[[phrases]]
+ixl = "𝓁"
+
+[[phrases]]
+ixm = "𝓂"
+
+[[phrases]]
+ixn = "𝓃"
+
+[[phrases]]
+ixo = "ℴ"
+
+[[phrases]]
+ixp = "𝓅"
+
+[[phrases]]
+ixq = "𝓆"
+
+[[phrases]]
+ixr = "𝓇"
+
+[[phrases]]
+ixs = "𝓈"
+
+[[phrases]]
+ixt = "𝓉"
+
+[[phrases]]
+ixu = "𝓊"
+
+[[phrases]]
+ixv = "𝓋"
+
+[[phrases]]
+ixw = "𝓌"
+
+[[phrases]]
+ixx = "𝓍"
+
+[[phrases]]
+ixy = "𝓎"
+
+[[phrases]]
+ixz = "𝓏"
