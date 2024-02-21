@@ -8,7 +8,7 @@ icut = "✄"
 ibox = "☐"
 
 [[phrases]]
-iok = "✓"  # check mark
+iok = "✓"  # Check Mark
 
 [[phrases]]
 iko = "✗"  # Ballot X
