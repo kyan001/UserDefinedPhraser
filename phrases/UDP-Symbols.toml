@@ -8,28 +8,16 @@ icut = "✄"
 ibox = "☐"
 
 [[phrases]]
-iok = "✓"
+iok = "✓"  # check mark
 
 [[phrases]]
-iok = "✔"
+iko = "✗"  # Ballot X
 
 [[phrases]]
-iok = "☑"
+iok = "☑"  # Ballot Box with Check
 
 [[phrases]]
-iko = "✕"
-
-[[phrases]]
-iko = "✖"
-
-[[phrases]]
-iko = "✗"
-
-[[phrases]]
-iko = "✘"
-
-[[phrases]]
-iko = "☒"
+iko = "☒"  # Ballot Box with X
 
 [[phrases]]
 ibar = "｜"
