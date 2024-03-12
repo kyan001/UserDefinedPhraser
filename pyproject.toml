@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "UserDefinedPhraser"
 readme = "README.md"
-dynamic = ["version"]
+dynamic = ["version", "dependencies"]
 description = "Convert pre-defined User Defined Phrases (UDP) to supported format"
 requires-python = ">=3.6"
 keywords = ["User", "Defined", "Phrases"]
@@ -16,16 +16,11 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
 ]
-dependencies = ["beautifulsoup4", "lxml", "consoleiotools", "consolecmdtools"]  # 依赖的第三方 package
 
 
 [[project.authors]]  # 追加作者
 name = "Kyan"
 email = "kai@kyan001.com"
-
-
-[project.optional-dependencies]
-dev = ["pycodestyle"]  # pip install "expackage[dev]" 时安装
 
 
 [project.urls]
@@ -36,6 +31,7 @@ documentation = "https://github.com/kyan001/UserDefinedPhraser/blob/master/READM
 
 [tool.setuptools.dynamic]
 version = {attr = "user_defined_phraser.__version__"}
+dependencies = {file = "requirements.txt" }
 
 [tool.setuptools]
 py-modules = ["user_defined_phraser"]
