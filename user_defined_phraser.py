@@ -1,3 +1,4 @@
+#! .venv/bin/python
 import os
 import fnmatch
 
