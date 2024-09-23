@@ -20,6 +20,9 @@ iok = "☑"  # Ballot Box with Check
 iko = "☒"  # Ballot Box with X
 
 [[phrases]]
+iempty = "∅"
+
+[[phrases]]
 ibar = "｜"
 
 [[phrases]]

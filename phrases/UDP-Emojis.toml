@@ -68,6 +68,9 @@ iok = "✅"  # White Heavy Check Mark 2010
 iko = "❌"  # Cross Mark
 
 [[phrases]]
+iempty = "🈳"
+
+[[phrases]]
 iplus = "➕"
 
 [[phrases]]
