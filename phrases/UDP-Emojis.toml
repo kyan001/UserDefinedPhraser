@@ -53,16 +53,10 @@ ibox = "🔘"
 iok = "🆗"  # Squared Ok
 
 [[phrases]]
-iko = "🆖"  # Squared Ng
-
-[[phrases]]
-iok = "🉑"  # Approved
-
-[[phrases]]
 iko = "🈲"  # Prohibited
 
 [[phrases]]
-iok = "✅"  # White Heavy Check Mark 2010
+iok = "✔️"  # White Heavy Check Mark 2010
 
 [[phrases]]
 iko = "❌"  # Cross Mark
