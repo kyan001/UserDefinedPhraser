@@ -35,6 +35,9 @@ idot = "⋮"
 isquare = "▢"
 
 [[phrases]]
+isquare = "⬚"
+
+[[phrases]]
 icircle = "◯"
 
 [[phrases]]
