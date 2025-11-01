@@ -125,6 +125,12 @@ iminus = "⁻"
 iequal = "₌"
 
 [[phrases]]
+iequal = "≥"
+
+[[phrases]]
+iequal = "≤"
+
+[[phrases]]
 iequal = "⁼"
 
 [[phrases]]
