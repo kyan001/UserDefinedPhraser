@@ -26,10 +26,7 @@ iempty = "∅"
 ibar = "｜"
 
 [[phrases]]
-idot = "·"
-
-[[phrases]]
-idot = "⋮"
+idot = "・"
 
 [[phrases]]
 isquare = "▢"
@@ -152,16 +149,10 @@ irmb = "¥"
 idc = "⎓"
 
 [[phrases]]
-iprime = "′"
+ift = "′"
 
 [[phrases]]
-iprime = "″"
-
-[[phrases]]
-iprime = "‴"
-
-[[phrases]]
-iprime = "⁗"
+iinch = "″"
 
 [[phrases]]
 islash = "／"

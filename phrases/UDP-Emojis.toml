@@ -77,10 +77,16 @@ itimes = "✖️"
 idiv = "➗"
 
 [[phrases]]
-ifish = "🐠"
+ifish = "🐠"  # Small
 
 [[phrases]]
-idolphin = "🐬"
+idolphin = "🐬"  # Medium
 
 [[phrases]]
-iwhale = "🐳"
+iwhale = "🐳"  # Large
+
+[[phrases]]
+imale = "♂️"
+
+[[phrases]]
+ifemale = "♀️"
