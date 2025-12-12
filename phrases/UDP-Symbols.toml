@@ -143,6 +143,9 @@ isharp = "♯"
 iflat = "♭"
 
 [[phrases]]
+iclef = "𝄞"
+
+[[phrases]]
 irmb = "¥"
 
 [[phrases]]
