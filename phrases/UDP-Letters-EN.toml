@@ -1,511 +1,510 @@
 # small chars
 [[phrases]]
-ixa = "ᵃ"
+iva = "ᵃ"
 
 [[phrases]]
-ixa = "ₐ"
+iva = "ₐ"
 
 [[phrases]]
-ixb = "ᵇ"
+ivb = "ᵇ"
 
 [[phrases]]
-ixc = "ᶜ"
+ivc = "ᶜ"
 
 [[phrases]]
-ixd = "ᵈ"
+ivd = "ᵈ"
 
 [[phrases]]
-ixe = "ₑ"
+ive = "ₑ"
 
 [[phrases]]
-ixe = "ᵉ"
+ive = "ᵉ"
 
 [[phrases]]
-ixe = "ₔ"
+ive = "ₔ"
 
 [[phrases]]
-ixf = "ᶠ"
+ivf = "ᶠ"
 
 [[phrases]]
-ixg = "ᵍ"
+ivg = "ᵍ"
 
 [[phrases]]
-ixh = "ʰ"
+ivh = "ʰ"
 
 [[phrases]]
-ixh = "ₕ"
+ivh = "ₕ"
 
 [[phrases]]
-ixi = "ᵢ"
+ivi = "ᵢ"
 
 [[phrases]]
-ixi = "ⁱ"
+ivi = "ⁱ"
 
 [[phrases]]
-ixi = "ᵎ"
-
-
-[[phrases]]
-ixj = "ʲ"
+ivi = "ᵎ"
 
 [[phrases]]
-ixj = "ⱼ"
+ivj = "ʲ"
 
 [[phrases]]
-ixk = "ᵏ"
+ivj = "ⱼ"
 
 [[phrases]]
-ixk = "ₖ"
+ivk = "ᵏ"
 
 [[phrases]]
-ixl = "ˡ"
+ivk = "ₖ"
 
 [[phrases]]
-ixl = "ₗ"
+ivl = "ˡ"
 
 [[phrases]]
-ixm = "ᵐ"
+ivl = "ₗ"
 
 [[phrases]]
-ixm = "ₘ"
+ivm = "ᵐ"
 
 [[phrases]]
-ixn = "ⁿ"
+ivm = "ₘ"
 
 [[phrases]]
-ixn = "ₙ"
+ivn = "ⁿ"
 
 [[phrases]]
-ixo = "ᵒ"
+ivn = "ₙ"
 
 [[phrases]]
-ixo = "ₒ"
+ivo = "ᵒ"
 
 [[phrases]]
-ixp = "ᵖ"
+ivo = "ₒ"
 
 [[phrases]]
-ixp = "ₚ"
+ivp = "ᵖ"
 
 [[phrases]]
-ixr = "ʳ"
+ivp = "ₚ"
 
 [[phrases]]
-ixr = "ᵣ"
+ivr = "ʳ"
 
 [[phrases]]
-ixs = "ˢ"
+ivr = "ᵣ"
 
 [[phrases]]
-ixs = "ₛ"
+ivs = "ˢ"
 
 [[phrases]]
-ixt = "ᵗ"
+ivs = "ₛ"
 
 [[phrases]]
-ixt = "ₜ"
+ivt = "ᵗ"
 
 [[phrases]]
-ixu = "ᵘ"
+ivt = "ₜ"
 
 [[phrases]]
-ixu = "ᵤ"
+ivu = "ᵘ"
 
 [[phrases]]
-ixv = "ᵛ"
+ivu = "ᵤ"
 
 [[phrases]]
-ixv = "ᵥ"
+ivv = "ᵛ"
 
 [[phrases]]
-ixw = "ʷ"
+ivv = "ᵥ"
 
 [[phrases]]
-ixx = "ˣ"
+ivw = "ʷ"
 
 [[phrases]]
-ixx = "ₓ"
+ivx = "ˣ"
 
 [[phrases]]
-ixy = "ʸ"
+ivx = "ₓ"
 
 [[phrases]]
-ixz = "ᶻ"
+ivy = "ʸ"
+
+[[phrases]]
+ivz = "ᶻ"
 
 # Tones
 [[phrases]]
-ixa = "ā"
+iva = "ā"
 
 [[phrases]]
-ixa = "á"
+iva = "á"
 
 [[phrases]]
-ixa = "ǎ"
+iva = "ǎ"
 
 [[phrases]]
-ixa = "à"
+iva = "à"
 
 [[phrases]]
-ixe = "ē"
+ive = "ē"
 
 [[phrases]]
-ixe = "é"
+ive = "é"
 
 [[phrases]]
-ixe = "ě"
+ive = "ě"
 
 [[phrases]]
-ixe = "è"
+ive = "è"
 
 [[phrases]]
-ixi = "ī"
+ivi = "ī"
 
 [[phrases]]
-ixi = "í"
+ivi = "í"
 
 [[phrases]]
-ixi = "ǐ"
+ivi = "ǐ"
 
 [[phrases]]
-ixi = "ì"
+ivi = "ì"
 
 [[phrases]]
-ixo = "ō"
+ivo = "ō"
 
 [[phrases]]
-ixo = "ó"
+ivo = "ó"
 
 [[phrases]]
-ixo = "ǒ"
+ivo = "ǒ"
 
 [[phrases]]
-ixo = "ò"
+ivo = "ò"
 
 [[phrases]]
-ixu = "ū"
+ivu = "ū"
 
 [[phrases]]
-ixu = "ú"
+ivu = "ú"
 
 [[phrases]]
-ixu = "ǔ"
+ivu = "ǔ"
 
 [[phrases]]
-ixu = "ù"
+ivu = "ù"
 
 # Mathematical Sans-Serif Bold Italic
 [[phrases]]
-ixa = "𝘼"
+iva = "𝘼"
 
 [[phrases]]
-ixb = "𝘽"
+ivb = "𝘽"
 
 [[phrases]]
-ixc = "𝘾"
+ivc = "𝘾"
 
 [[phrases]]
-ixd = "𝘿"
+ivd = "𝘿"
 
 [[phrases]]
-ixe = "𝙀"
+ive = "𝙀"
 
 [[phrases]]
-ixf = "𝙁"
+ivf = "𝙁"
 
 [[phrases]]
-ixg = "𝙂"
+ivg = "𝙂"
 
 [[phrases]]
-ixh = "𝙃"
+ivh = "𝙃"
 
 [[phrases]]
-ixi = "𝙄"
+ivi = "𝙄"
 
 [[phrases]]
-ixj = "𝙅"
+ivj = "𝙅"
 
 [[phrases]]
-ixk = "𝙆"
+ivk = "𝙆"
 
 [[phrases]]
-ixl = "𝙇"
+ivl = "𝙇"
 
 [[phrases]]
-ixm = "𝙈"
+ivm = "𝙈"
 
 [[phrases]]
-ixn = "𝙉"
+ivn = "𝙉"
 
 [[phrases]]
-ixo = "𝙊"
+ivo = "𝙊"
 
 [[phrases]]
-ixp = "𝙋"
+ivp = "𝙋"
 
 [[phrases]]
-ixq = "𝙌"
+ivq = "𝙌"
 
 [[phrases]]
-ixr = "𝙍"
+ivr = "𝙍"
 
 [[phrases]]
-ixs = "𝙎"
+ivs = "𝙎"
 
 [[phrases]]
-ixt = "𝙏"
+ivt = "𝙏"
 
 [[phrases]]
-ixu = "𝙐"
+ivu = "𝙐"
 
 [[phrases]]
-ixv = "𝙑"
+ivv = "𝙑"
 
 [[phrases]]
-ixw = "𝙒"
+ivw = "𝙒"
 
 [[phrases]]
-ixx = "𝙓"
+ivx = "𝙓"
 
 [[phrases]]
-ixy = "𝙔"
+ivy = "𝙔"
 
 [[phrases]]
-ixz = "𝙕"
+ivz = "𝙕"
 
 [[phrases]]
-ixa = "𝙖"
+iva = "𝙖"
 
 [[phrases]]
-ixb = "𝙗"
+ivb = "𝙗"
 
 [[phrases]]
-ixc = "𝙘"
+ivc = "𝙘"
 
 [[phrases]]
-ixd = "𝙙"
+ivd = "𝙙"
 
 [[phrases]]
-ixe = "𝙚"
+ive = "𝙚"
 
 [[phrases]]
-ixf = "𝙛"
+ivf = "𝙛"
 
 [[phrases]]
-ixg = "𝙜"
+ivg = "𝙜"
 
 [[phrases]]
-ixh = "𝙝"
+ivh = "𝙝"
 
 [[phrases]]
-ixi = "𝙞"
+ivi = "𝙞"
 
 [[phrases]]
-ixj = "𝙟"
+ivj = "𝙟"
 
 [[phrases]]
-ixk = "𝙠"
+ivk = "𝙠"
 
 [[phrases]]
-ixl = "𝙡"
+ivl = "𝙡"
 
 [[phrases]]
-ixm = "𝙢"
+ivm = "𝙢"
 
 [[phrases]]
-ixn = "𝙣"
+ivn = "𝙣"
 
 [[phrases]]
-ixo = "𝙤"
+ivo = "𝙤"
 
 [[phrases]]
-ixp = "𝙥"
+ivp = "𝙥"
 
 [[phrases]]
-ixq = "𝙦"
+ivq = "𝙦"
 
 [[phrases]]
-ixr = "𝙧"
+ivr = "𝙧"
 
 [[phrases]]
-ixs = "𝙨"
+ivs = "𝙨"
 
 [[phrases]]
-ixt = "𝙩"
+ivt = "𝙩"
 
 [[phrases]]
-ixu = "𝙪"
+ivu = "𝙪"
 
 [[phrases]]
-ixv = "𝙫"
+ivv = "𝙫"
 
 [[phrases]]
-ixw = "𝙬"
+ivw = "𝙬"
 
 [[phrases]]
-ixx = "𝙭"
+ivx = "𝙭"
 
 [[phrases]]
-ixy = "𝙮"
+ivy = "𝙮"
 
 [[phrases]]
-ixz = "𝙯"
+ivz = "𝙯"
 
 # Mathematical Script
 [[phrases]]
-ixa = "𝒜"
+iva = "𝒜"
 
 [[phrases]]
-ixb = "ℬ"
+ivb = "ℬ"
 
 [[phrases]]
-ixc = "𝒞"
+ivc = "𝒞"
 
 [[phrases]]
-ixd = "𝒟"
+ivd = "𝒟"
 
 [[phrases]]
-ixe = "ℰ"
+ive = "ℰ"
 
 [[phrases]]
-ixf = "ℱ"
+ivf = "ℱ"
 
 [[phrases]]
-ixg = "𝒢"
+ivg = "𝒢"
 
 [[phrases]]
-ixh = "ℋ"
+ivh = "ℋ"
 
 [[phrases]]
-ixi = "ℐ"
+ivi = "ℐ"
 
 [[phrases]]
-ixj = "𝒥"
+ivj = "𝒥"
 
 [[phrases]]
-ixk = "𝒦"
+ivk = "𝒦"
 
 [[phrases]]
-ixl = "ℒ"
+ivl = "ℒ"
 
 [[phrases]]
-ixm = "ℳ"
+ivm = "ℳ"
 
 [[phrases]]
-ixn = "𝒩"
+ivn = "𝒩"
 
 [[phrases]]
-ixo = "𝒪"
+ivo = "𝒪"
 
 [[phrases]]
-ixp = "𝒫"
+ivp = "𝒫"
 
 [[phrases]]
-ixq = "𝒬"
+ivq = "𝒬"
 
 [[phrases]]
-ixr = "ℛ"
+ivr = "ℛ"
 
 [[phrases]]
-ixs = "𝒮"
+ivs = "𝒮"
 
 [[phrases]]
-ixt = "𝒯"
+ivt = "𝒯"
 
 [[phrases]]
-ixu = "𝒰"
+ivu = "𝒰"
 
 [[phrases]]
-ixv = "𝒱"
+ivv = "𝒱"
 
 [[phrases]]
-ixw = "𝒲"
+ivw = "𝒲"
 
 [[phrases]]
-ixx = "𝒳"
+ivx = "𝒳"
 
 [[phrases]]
-ixy = "𝒴"
+ivy = "𝒴"
 
 [[phrases]]
-ixz = "𝒵"
+ivz = "𝒵"
 
 [[phrases]]
-ixa = "𝒶"
+iva = "𝒶"
 
 [[phrases]]
-ixb = "𝒷"
+ivb = "𝒷"
 
 [[phrases]]
-ixc = "𝒸"
+ivc = "𝒸"
 
 [[phrases]]
-ixd = "𝒹"
+ivd = "𝒹"
 
 [[phrases]]
-ixe = "ℯ"
+ive = "ℯ"
 
 [[phrases]]
-ixf = "𝒻"
+ivf = "𝒻"
 
 [[phrases]]
-ixg = "ℊ"
+ivg = "ℊ"
 
 [[phrases]]
-ixh = "𝒽"
+ivh = "𝒽"
 
 [[phrases]]
-ixi = "𝒾"
+ivi = "𝒾"
 
 [[phrases]]
-ixj = "𝒿"
+ivj = "𝒿"
 
 [[phrases]]
-ixk = "𝓀"
+ivk = "𝓀"
 
 [[phrases]]
-ixl = "𝓁"
+ivl = "𝓁"
 
 [[phrases]]
-ixm = "𝓂"
+ivm = "𝓂"
 
 [[phrases]]
-ixn = "𝓃"
+ivn = "𝓃"
 
 [[phrases]]
-ixo = "ℴ"
+ivo = "ℴ"
 
 [[phrases]]
-ixp = "𝓅"
+ivp = "𝓅"
 
 [[phrases]]
-ixq = "𝓆"
+ivq = "𝓆"
 
 [[phrases]]
-ixr = "𝓇"
+ivr = "𝓇"
 
 [[phrases]]
-ixs = "𝓈"
+ivs = "𝓈"
 
 [[phrases]]
-ixt = "𝓉"
+ivt = "𝓉"
 
 [[phrases]]
-ixu = "𝓊"
+ivu = "𝓊"
 
 [[phrases]]
-ixv = "𝓋"
+ivv = "𝓋"
 
 [[phrases]]
-ixw = "𝓌"
+ivw = "𝓌"
 
 [[phrases]]
-ixx = "𝓍"
+ivx = "𝓍"
 
 [[phrases]]
-ixy = "𝓎"
+ivy = "𝓎"
 
 [[phrases]]
-ixz = "𝓏"
+ivz = "𝓏"
 
 [[phrases]]
 ibp = "𝘽𝙚𝙨𝙩 𝙋𝙧𝙖𝙘𝙩𝙞𝙘𝙚"
