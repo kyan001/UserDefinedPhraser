@@ -29,7 +29,13 @@ ibar = "｜"
 idot = "・"
 
 [[phrases]]
-idot = "｀"
+iquote = "｀"
+
+[[phrases]]
+iquote = "′"
+
+[[phrases]]
+iquote = "″"
 
 [[phrases]]
 isquare = "▢"
@@ -74,7 +80,7 @@ ism = "℠"
 idagger = "†"
 
 [[phrases]]
-idegree = "°"
+ideg = "°"
 
 [[phrases]]
 ilove = "❤"
@@ -153,12 +159,6 @@ irmb = "¥"
 
 [[phrases]]
 idc = "⎓"
-
-[[phrases]]
-ift = "′"
-
-[[phrases]]
-iinch = "″"
 
 [[phrases]]
 islash = "／"
