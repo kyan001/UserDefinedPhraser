@@ -110,40 +110,22 @@ istar = "☆"
 itaichi = "☯"
 
 [[phrases]]
-izkh = "「"
+ibr = "「」"  # Single Quote Brackets
 
 [[phrases]]
-izkh = "『"
+ibr = "『』"  # Double Quote Brackets
 
 [[phrases]]
-izkh = "〖"
+ibr = "〖〗"  # White Lenticular Brackets
 
 [[phrases]]
-izkh = "〔"
+ibr = "〔〕"  # Tortoise Shell Brackets
 
 [[phrases]]
-izkh = "⁽"
+ibr = "⁽⁾"  # Superscript Parentheses
 
 [[phrases]]
-izkh = "₍"
-
-[[phrases]]
-iykh = "」"
-
-[[phrases]]
-iykh = "』"
-
-[[phrases]]
-iykh = "〗"
-
-[[phrases]]
-iykh = "〕"
-
-[[phrases]]
-iykh = "⁾"
-
-[[phrases]]
-iykh = "₎"
+ibr = "₍₎"  # Subscript Parentheses
 
 [[phrases]]
 isharp = "♯"
