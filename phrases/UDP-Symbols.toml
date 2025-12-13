@@ -86,16 +86,10 @@ ideg = "°"
 ilove = "❤"
 
 [[phrases]]
-imusic = "♪"
+ipara = "¶"  # Pilcrow
 
 [[phrases]]
-imusic = "♬"
-
-[[phrases]]
-ipara = "¶"
-
-[[phrases]]
-isect = "§"
+isect = "§"  # Section Sign
 
 [[phrases]]
 iparty = "☭"
@@ -110,31 +104,55 @@ istar = "☆"
 itaichi = "☯"
 
 [[phrases]]
-ibr = "「」"  # Single Quote Brackets
+ii = "「"  # Single Quote Brackets
 
 [[phrases]]
-ibr = "『』"  # Double Quote Brackets
+io = "」"
 
 [[phrases]]
-ibr = "〖〗"  # White Lenticular Brackets
+ii = "『"  # Double Quote Brackets
 
 [[phrases]]
-ibr = "〔〕"  # Tortoise Shell Brackets
+io = "』"
 
 [[phrases]]
-ibr = "⁽⁾"  # Superscript Parentheses
+ii = "〖"  # White Lenticular Brackets
 
 [[phrases]]
-ibr = "₍₎"  # Subscript Parentheses
+io = "〗"
 
 [[phrases]]
-isharp = "♯"
+ii = "〔"  # Tortoise Shell Brackets
 
 [[phrases]]
-iflat = "♭"
+io = "〕"
 
 [[phrases]]
-iclef = "𝄞"
+ii = "⁽"  # Superscript Parentheses
+
+[[phrases]]
+io = "⁾"
+
+[[phrases]]
+ii = "₍"  # Subscript Parentheses
+
+[[phrases]]
+io = "₎"
+
+[[phrases]]
+isharp = "♯"  # Sharp
+
+[[phrases]]
+iflat = "♭"  # Flat
+
+[[phrases]]
+imusic = "♪"
+
+[[phrases]]
+imusic = "♬"
+
+[[phrases]]
+imusic = "𝄞"  # Gclef
 
 [[phrases]]
 irmb = "¥"
