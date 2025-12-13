@@ -29,13 +29,13 @@ ibar = "｜"
 idot = "・"
 
 [[phrases]]
-iquote = "｀"
+iquote = "｀"  # Fullwidth
 
 [[phrases]]
-iquote = "′"
+iquote = "′"  # Prime: feet, minutes
 
 [[phrases]]
-iquote = "″"
+iquote = "″"  # Double Prime: inches, seconds
 
 [[phrases]]
 isquare = "▢"
