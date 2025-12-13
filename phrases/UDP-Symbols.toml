@@ -29,6 +29,9 @@ ibar = "｜"
 idot = "・"
 
 [[phrases]]
+idot = "｀"
+
+[[phrases]]
 isquare = "▢"
 
 [[phrases]]
