@@ -2,107 +2,141 @@
 inul = "␀"
 
 [[phrases]]
+iinf = "∞"
+
+[[phrases]]
+inum = "№"
+
+
+# Superscript Numbers
+[[phrases]]
 izero = "⁰"
-
-[[phrases]]
-izero = "₀"
-
-[[phrases]]
-izero = "⓪"
 
 [[phrases]]
 ione = "¹"
 
 [[phrases]]
-ione = "₁"
-
-[[phrases]]
-ione = "①"
-
-[[phrases]]
 itwo = "²"
-
-[[phrases]]
-itwo = "₂"
-
-[[phrases]]
-itwo = "②"
-
-[[phrases]]
-itwo = "½"
 
 [[phrases]]
 ithree = "³"
 
 [[phrases]]
-ithree = "₃"
-
-[[phrases]]
-ithree = "③"
-
-[[phrases]]
-ithree = "⅓"
-
-[[phrases]]
 ifour = "⁴"
-
-[[phrases]]
-ifour = "₄"
-
-[[phrases]]
-ifour = "④"
-
-[[phrases]]
-ifour = "¼"
 
 [[phrases]]
 ifive = "⁵"
 
 [[phrases]]
-ifive = "₅"
-
-[[phrases]]
-ifive = "⑤"
-
-[[phrases]]
 isix = "⁶"
-
-[[phrases]]
-isix = "₆"
-
-[[phrases]]
-isix = "⑥"
 
 [[phrases]]
 iseven = "⁷"
 
 [[phrases]]
-iseven = "₇"
-
-[[phrases]]
-iseven = "⑦"
-
-[[phrases]]
 ieight = "⁸"
+
+[[phrases]]
+inine = "⁹"
+
+
+# Subscript Numbers
+[[phrases]]
+izero = "₀"
+
+[[phrases]]
+ione = "₁"
+
+[[phrases]]
+itwo = "₂"
+
+[[phrases]]
+ithree = "₃"
+
+[[phrases]]
+ifour = "₄"
+
+[[phrases]]
+ifive = "₅"
+
+[[phrases]]
+isix = "₆"
+
+[[phrases]]
+iseven = "₇"
 
 [[phrases]]
 ieight = "₈"
 
 [[phrases]]
-ieight = "⑧"
-
-[[phrases]]
-inine = "⁹"
-
-[[phrases]]
 inine = "₉"
+
+
+# Circled Numbers
+[[phrases]]
+izero = "⓪"
+
+[[phrases]]
+ione = "①"
+
+[[phrases]]
+itwo = "②"
+
+[[phrases]]
+ithree = "③"
+
+[[phrases]]
+ifour = "④"
+
+[[phrases]]
+ifive = "⑤"
+
+[[phrases]]
+isix = "⑥"
+
+[[phrases]]
+iseven = "⑦"
+
+[[phrases]]
+ieight = "⑧"
 
 [[phrases]]
 inine = "⑨"
 
-[[phrases]]
-iinf = "∞"
 
+# Bold Numbers
+[[phrases]]
+izero = "𝟬"
+
+[[phrases]]
+ione = "𝟭"
+
+[[phrases]]
+itwo = "𝟮"
+
+[[phrases]]
+ithree = "𝟯"
+
+[[phrases]]
+ifour = "𝟰"
+
+[[phrases]]
+ifive = "𝟱"
+
+[[phrases]]
+isix = "𝟲"
+
+[[phrases]]
+iseven = "𝟳"
+
+[[phrases]]
+ieight = "𝟴"
+
+[[phrases]]
+inine = "𝟵"
+
+
+# Operators
 [[phrases]]
 iplus = "±"
 
@@ -158,7 +192,7 @@ idiv = "∕"
 idiv = "ᐟ"
 
 [[phrases]]
-ifrac = "⁄"
+idiv = "／"
 
 [[phrases]]
-inum = "№"
+ifrac = "⁄"
