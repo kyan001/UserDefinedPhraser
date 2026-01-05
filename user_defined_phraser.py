@@ -13,7 +13,7 @@ from phrasers.txtphraser import TxtPhraser
 from phrasers.msphraser import MsPhraser
 from phrasers.htmlphraser import HtmlPhraser
 
-__version__ = "3.0.2"
+__version__ = "3.1.0"
 
 PROJECT_DIR = cct.get_path(__file__).parent
 GENERATED_DIR = os.path.join(PROJECT_DIR, "GeneratedUDP")
