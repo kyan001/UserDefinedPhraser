@@ -13,7 +13,7 @@ from phrasers.txtphraser import TxtPhraser
 from phrasers.msphraser import MsPhraser
 from phrasers.htmlphraser import HtmlPhraser
 
-__version__ = "3.1.0"
+__version__ = "3.1.2"
 
 PROJECT_DIR = cct.get_path(__file__).parent
 GENERATED_DIR = os.path.join(PROJECT_DIR, "GeneratedUDP")
@@ -133,8 +133,7 @@ def create_jobs():
     phraser_names = cit.get_choices(list(AVAIL_PHRASER.keys()), allable=True, exitable=True)
     if not phraser_names:
         cit.bye()
-    cit.ask("Generate into separate files?")
-    separate = cit.get_choice(['Yes', 'No']) == 'Yes'
+    separate = cit.get_input("Generate into separate files? (Yes/No)",default=("Yes" if MacPhraser.name in phraser_names else "No")).lower() == "yes"  # macOS can not handle large User Defined Phrases.
     for name in phraser_names:
         assembly_line(name, separate=separate)
     cct.show_in_file_manager(GENERATED_DIR, ask=True)
