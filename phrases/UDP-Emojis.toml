@@ -50,16 +50,28 @@ ibox = "🔲"
 ibox = "🔘"
 
 [[phrases]]
+iok = "✔"  # Heavy Check Mark
+
+[[phrases]]
+iko = "❌"  # Cross Mark
+
+[[phrases]]
+iok = "✅"  # White Heavy Check Mark
+
+[[phrases]]
+iko = "❎"  # Negative Squared Cross Mark
+
+[[phrases]]
 iok = "🆗"  # Squared Ok
 
 [[phrases]]
 iko = "🈲"  # Prohibited
 
 [[phrases]]
-iok = "✔️"  # White Heavy Check Mark 2010
+idot = "🔹"  # Small Blue Diamond
 
 [[phrases]]
-iko = "❌"  # Cross Mark
+idot = "🔸"  # Small Orange Diamond
 
 [[phrases]]
 iempty = "🈳"
