@@ -8,13 +8,13 @@ icon = "👎"
 ilink = "🔗"
 
 [[phrases]]
-ilink = "⛓️"  # ⛓ U+26D3
+ilink = "⛓"  # ⛓️ U+26D3
 
 [[phrases]]
 ianchor = "⚓"
 
 [[phrases]]
-inote = "🗒️"  # 🗒 U+1F5D2
+inote = "🗒"  # 🗒️ U+1F5D2
 
 [[phrases]]
 imemo = "📝"
@@ -26,10 +26,10 @@ ifolder = "📁"
 ipage = "📄"
 
 [[phrases]]
-imouse = "🖱️"  # 🖱 U+1F5B1
+imouse = "🖱"  # 🖱️ U+1F5B1
 
 [[phrases]]
-istick = "🕹️"  # 🕹 U+1F579
+istick = "🕹"  # 🕹️ U+1F579
 
 [[phrases]]
 igame = "🎮"
@@ -38,7 +38,7 @@ igame = "🎮"
 ichestnut = "🌰"
 
 [[phrases]]
-itag = "🏷️"  # 🏷 U+1F3F7
+itag = "🏷"  # 🏷️ U+1F3F7
 
 [[phrases]]
 ibookmark = "🔖"
@@ -83,7 +83,7 @@ iplus = "➕"
 iminus = "➖"
 
 [[phrases]]
-itimes = "✖️"  # ✖ U+2716
+itimes = "✖"  # ✖️ U+2716
 
 [[phrases]]
 idiv = "➗"
