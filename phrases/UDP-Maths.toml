@@ -183,16 +183,13 @@ itimes = "×"
 itimes = "˟"
 
 [[phrases]]
-idiv = "÷"
+idiv = "÷"  # Division Sign (U+00F7): '1 ÷ 2'
 
 [[phrases]]
-idiv = "∕"
+idiv = "∕"  # Standard Division Slash (U+2215): 'a∕b'
 
 [[phrases]]
-idiv = "ᐟ"
+idiv = "ᐟ"  # Divide Modifier (U+141F): 'x¹ᐟ²'
 
 [[phrases]]
-idiv = "／"
-
-[[phrases]]
-ifrac = "⁄"
+ifrac = "⁄"  # Fraction Slash (U+2044): '1⁄2'

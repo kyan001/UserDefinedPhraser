@@ -161,4 +161,4 @@ irmb = "¥"
 idc = "⎓"
 
 [[phrases]]
-islash = "／"
+islash = "／"  # Fullwidth of "/" (U+FF0F): '米／秒'
