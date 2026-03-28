@@ -8,7 +8,7 @@ name = "UserDefinedPhraser"
 readme = "README.md"
 dynamic = ["version", "dependencies"]
 description = "Convert pre-defined User Defined Phrases (UDP) to supported format"
-requires-python = ">=3.6"
+requires-python = ">=3.8"
 keywords = ["User", "Defined", "Phrases"]
 license = { file = "LICENSE" }  # 使用文件作为 LICENSE
 classifiers = [
