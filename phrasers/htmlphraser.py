@@ -54,7 +54,7 @@ class HtmlPhraser(phraser.Phraser):
 
     def to_html(self):
         dirpath = os.path.dirname(os.path.abspath(__file__))
-        soup = BeautifulSoup(open(os.path.join(dirpath, 'htmlphraser_tpl.html')), 'html.parser')
+        soup = BeautifulSoup(open(os.path.join(dirpath, 'htmlphraser_tpl.html'), encoding='utf-8'), 'html.parser')
         phrases_div = soup.html.body.find(id='phrases')
         for itm in self.phrases:
             row_attrs = {
