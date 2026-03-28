@@ -1,27 +1,368 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stckapath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <title>User Defined Phrase</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>User Defined Phrases</title>
         <style>
-            .monofont {
-                font-family: consolas, monospace;
+            *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+            /* ══════════════════════════════════════
+               Catppuccin Latte  (light / default)
+            ══════════════════════════════════════ */
+            :root,
+            html[data-theme="light"] {
+                --base:       #eff1f5;
+                --text:       #4c4f69;
+                --subtext0:   #6c6f85;
+                --overlay0:   #9ca0b0;
+                --surface0:   #ccd0da;
+                --surface1:   #bcc0cc;
+                --blue:       #1e66f5;
+                --lavender:   #7287fd;
+                --mauve:      #8839ef;
+
+                --hdr-bg:     linear-gradient(135deg, #1e66f5 0%, #8839ef 100%);
+                --hdr-glow:   rgba(136, 57, 239, 0.40);
+                --hdr-aura:   radial-gradient(ellipse at 70% 50%, rgba(114, 135, 253, 0.50) 0%, transparent 60%);
+                --hdr-color:  #ffffff;
+
+                --sec-dot:    linear-gradient(135deg, #1e66f5, #8839ef);
+                --sec-glow:   rgba(114, 135, 253, 0.80);
+                --sec-color:  #9ca0b0;
+                --sec-line:   linear-gradient(to right, rgba(114, 135, 253, 0.40), transparent);
+
+                --card-bg:    rgba(204, 208, 218, 0.45);
+                --card-bd:    rgba(188, 192, 204, 0.60);
+                --card-hbg:   rgba(114, 135, 253, 0.15);
+                --card-hbd:   rgba(114, 135, 253, 0.60);
+                --card-hsh:   rgba(114, 135, 253, 0.22);
+
+                --kbd-bg:     rgba(136,  57, 239, 0.10);
+                --kbd-bd:     rgba(136,  57, 239, 0.30);
+                --kbd-bd-b:   rgba(136,  57, 239, 0.50);
+                --kbd-color:  #8839ef;
+
+                --phrase:     #4c4f69;
+            }
+
+            /* ══════════════════════════════════════
+               Catppuccin Mocha  (dark)
+            ══════════════════════════════════════ */
+            @media (prefers-color-scheme: dark) {
+                html:not([data-theme]) {
+                    --base:       #1e1e2e;
+                    --text:       #cdd6f4;
+                    --subtext0:   #a6adc8;
+                    --overlay0:   #6c7086;
+                    --surface0:   #313244;
+                    --surface1:   #45475a;
+                    --blue:       #89b4fa;
+                    --lavender:   #b4befe;
+                    --mauve:      #cba6f7;
+
+                    --hdr-bg:     linear-gradient(135deg, #11111b 0%, #1e1e2e 100%);
+                    --hdr-glow:   rgba(203, 166, 247, 0.28);
+                    --hdr-aura:   radial-gradient(ellipse at 65% 50%, rgba(203, 166, 247, 0.20) 0%, transparent 60%);
+                    --hdr-color:  #cdd6f4;
+
+                    --sec-dot:    linear-gradient(135deg, #89b4fa, #cba6f7);
+                    --sec-glow:   rgba(203, 166, 247, 0.85);
+                    --sec-color:  #585b70;
+                    --sec-line:   linear-gradient(to right, rgba(137, 180, 250, 0.35), transparent);
+
+                    --card-bg:    rgba(49, 50, 68, 0.60);
+                    --card-bd:    rgba(88, 91, 112, 0.50);
+                    --card-hbg:   rgba(203, 166, 247, 0.10);
+                    --card-hbd:   rgba(203, 166, 247, 0.50);
+                    --card-hsh:   rgba(203, 166, 247, 0.22);
+
+                    --kbd-bg:     rgba(203, 166, 247, 0.13);
+                    --kbd-bd:     rgba(203, 166, 247, 0.28);
+                    --kbd-bd-b:   rgba(203, 166, 247, 0.50);
+                    --kbd-color:  #cba6f7;
+
+                    --phrase:     #cdd6f4;
+                }
+            }
+
+            html[data-theme="dark"] {
+                --base:       #1e1e2e;
+                --text:       #cdd6f4;
+                --subtext0:   #a6adc8;
+                --overlay0:   #6c7086;
+                --surface0:   #313244;
+                --surface1:   #45475a;
+                --blue:       #89b4fa;
+                --lavender:   #b4befe;
+                --mauve:      #cba6f7;
+
+                --hdr-bg:     linear-gradient(135deg, #11111b 0%, #1e1e2e 100%);
+                --hdr-glow:   rgba(203, 166, 247, 0.28);
+                --hdr-aura:   radial-gradient(ellipse at 65% 50%, rgba(203, 166, 247, 0.20) 0%, transparent 60%);
+                --hdr-color:  #cdd6f4;
+
+                --sec-dot:    linear-gradient(135deg, #89b4fa, #cba6f7);
+                --sec-glow:   rgba(203, 166, 247, 0.85);
+                --sec-color:  #585b70;
+                --sec-line:   linear-gradient(to right, rgba(137, 180, 250, 0.35), transparent);
+
+                --card-bg:    rgba(49, 50, 68, 0.60);
+                --card-bd:    rgba(88, 91, 112, 0.50);
+                --card-hbg:   rgba(203, 166, 247, 0.10);
+                --card-hbd:   rgba(203, 166, 247, 0.50);
+                --card-hsh:   rgba(203, 166, 247, 0.22);
+
+                --kbd-bg:     rgba(203, 166, 247, 0.13);
+                --kbd-bd:     rgba(203, 166, 247, 0.28);
+                --kbd-bd-b:   rgba(203, 166, 247, 0.50);
+                --kbd-color:  #cba6f7;
+
+                --phrase:     #cdd6f4;
+            }
+
+            /* ── Base ── */
+            body {
+                background: var(--base);
+                color: var(--text);
+                font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+                min-height: 100vh;
+                transition: background 0.3s, color 0.3s;
+            }
+
+            /* ── Header ── */
+            .site-header {
+                background: var(--hdr-bg);
+                padding: 3rem 1.5rem 2.75rem;
+                text-align: center;
+                box-shadow: 0 0 60px var(--hdr-glow);
+                position: relative;
+                overflow: hidden;
+            }
+            .site-header::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background: var(--hdr-aura);
+                pointer-events: none;
+            }
+            .site-header h1 {
+                position: relative;
+                font-size: 2.25rem;
+                font-weight: 800;
+                letter-spacing: -0.04em;
+                color: var(--hdr-color);
+            }
+
+            /* ── Layout shims (Bootstrap class names generated by Python) ── */
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 1.5rem;
+            }
+            .text-center { text-align: center; }
+            .my-2        { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+
+            /* ── Phrases area ── */
+            #phrases { padding: 2rem 0 5rem; }
+
+            #phrases .row {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+                gap: 0.5rem;
+                align-items: start;
+            }
+
+            /* Nullify Bootstrap column widths */
+            #phrases .col-3,
+            #phrases [class*="col-md-"] {
+                width: auto !important;
+                max-width: none;
+                padding: 0;
+            }
+
+            /* ── Section header (kbd.col-12.text-center generated by Python) ── */
+            #phrases .row > kbd {
+                grid-column: 1 / -1;
+                display: flex;
+                align-items: center;
+                gap: 0.75rem;
+                padding: 2.25rem 0 0.65rem;
+                background: transparent;
+                border: none;
+                box-shadow: none;
+                font-family: inherit;
+                font-size: 0.68rem;
+                font-weight: 700;
+                letter-spacing: 0.14em;
+                text-transform: uppercase;
+                color: var(--sec-color);
+            }
+            #phrases .row > kbd::before {
+                content: '';
+                flex-shrink: 0;
+                width: 0.5rem;
+                height: 0.5rem;
+                border-radius: 50%;
+                background: var(--sec-dot);
+                box-shadow: 0 0 8px var(--sec-glow);
+            }
+            #phrases .row > kbd::after {
+                content: '';
+                flex: 1;
+                height: 1px;
+                background: var(--sec-line);
+            }
+
+            /* ── Phrase card (div.py-1.mt-1.text-center.rounded.border) ── */
+            #phrases .py-1.mt-1.text-center.rounded.border {
+                background: var(--card-bg) !important;
+                border: 1px solid var(--card-bd) !important;
+                border-radius: 0.875rem !important;
+                padding: 0.75rem 0.25rem !important;
+                margin-top: 0 !important;
+                cursor: default;
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                transition: background 0.2s, border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+            }
+            #phrases .py-1.mt-1.text-center.rounded.border:hover {
+                background: var(--card-hbg) !important;
+                border-color: var(--card-hbd) !important;
+                box-shadow: 0 0 24px var(--card-hsh);
+                transform: translateY(-3px) scale(1.06);
+            }
+
+            /* ── Shortcut label (mark.monofont) — keycap style ── */
+            mark.monofont {
+                display: inline-block;
+                font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+                font-size: 0.65rem;
+                font-weight: 600;
+                color: var(--kbd-color);
+                background: var(--kbd-bg);
+                border: 1px solid var(--kbd-bd);
+                border-bottom: 3px solid var(--kbd-bd-b);
+                border-radius: 0.3rem;
+                padding: 0.1rem 0.45rem;
+                letter-spacing: 0.02em;
+            }
+            mark.monofont::first-letter {
+                color: color-mix(in srgb, var(--kbd-color) 75%, transparent);
+            }
+
+            /* ── Phrase character (span.lead) ── */
+            span.lead {
+                display: block;
+                font-size: 1.75rem;
+                line-height: 1.1;
+                color: var(--phrase);
+                margin-top: 0.35rem;
+            }
+
+            /* ── Section header: letter badge inside kbd ── */
+            #phrases .row > kbd > code {
+                display: inline-block;
+                font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+                font-size: 0.85rem;
+                font-weight: 700;
+                color: var(--mauve);
+                background: var(--surface0);
+                border: 1px solid var(--surface1);
+                border-bottom: 2px solid var(--overlay0);
+                border-radius: 0.3rem;
+                padding: 0.05rem 0.5rem;
+                letter-spacing: 0;
+                text-transform: none;
+            }
+
+            /* ── Theme switcher ── */
+            .theme-switcher {
+                display: flex;
+                align-items: center;
+                gap: 0.25rem;
+                background: rgba(255,255,255,0.12);
+                border: 1px solid rgba(255,255,255,0.20);
+                border-radius: 999px;
+                padding: 0.25rem;
+                backdrop-filter: blur(8px);
+            }
+            .theme-btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.35rem;
+                background: transparent;
+                border: none;
+                border-radius: 999px;
+                padding: 0.3rem 0.75rem;
+                font-size: 0.75rem;
+                font-weight: 600;
+                color: rgba(255,255,255,0.70);
+                cursor: pointer;
+                transition: background 0.18s, color 0.18s;
+                white-space: nowrap;
+            }
+            .theme-btn svg {
+                width: 0.9rem;
+                height: 0.9rem;
+                flex-shrink: 0;
+            }
+            .theme-btn.active {
+                background: rgba(255,255,255,0.22);
+                color: #fff;
             }
         </style>
     </head>
     <body>
+        <header class="site-header">
+            <div class="container">
+                <h1>User Defined Phrases</h1>
+                <div style="display:flex;justify-content:center;margin-top:1.25rem;">
+                    <div class="theme-switcher" role="group" aria-label="Theme">
+                        <button class="theme-btn" data-theme="light" onclick="setTheme('light')" title="Light">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                            Light
+                        </button>
+                        <button class="theme-btn" data-theme="system" onclick="setTheme('system')" title="System">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                            System
+                        </button>
+                        <button class="theme-btn" data-theme="dark" onclick="setTheme('dark')" title="Dark">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+                            Dark
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
         <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <h1 class="my-2">User Defined Phrases</h1>
-                </div><!--.col-->
-            </div><!--.row-->
             <div id="phrases">
             </div><!--#phrases-->
-        </div><!--.container-->
+        </div>
+        <script>
+            (function () {
+                var STORAGE_KEY = 'udp-theme';
+
+                function setTheme(mode) {
+                    if (mode === 'system') {
+                        document.documentElement.removeAttribute('data-theme');
+                    } else {
+                        document.documentElement.setAttribute('data-theme', mode);
+                    }
+                    localStorage.setItem(STORAGE_KEY, mode);
+                    document.querySelectorAll('.theme-btn').forEach(function (btn) {
+                        btn.classList.toggle('active', btn.dataset.theme === mode);
+                    });
+                }
+
+                // expose globally for onclick handlers
+                window.setTheme = setTheme;
+
+                // restore saved preference (default: system)
+                var saved = localStorage.getItem(STORAGE_KEY) || 'system';
+                setTheme(saved);
+            })();
+        </script>
     </body>
 </html>
