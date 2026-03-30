@@ -58,14 +58,14 @@ def get_phraser(name: str = DEFAULT_FORMAT, phrases: list = []) -> Phraser:
     return AVAIL_PHRASER[name](phrases)
 
 
-def load_phrases_from_phraser(filepath: str, format: str = DEFAULT_FORMAT) -> list:
+def load_phrases_from_phraser(filepath: str, format: str = DEFAULT_FORMAT) -> list[dict[str, str]]:
     """Load phrases from given json file.
 
     Args:
         filepath (str): Phrases file path.
 
     Returns:
-        list: Phrases list.
+        list[dict[str, str]]: Phrases list.
     """
     cit.info(f"Parsing `{cct.get_path(filepath).basename}`")
     phraser = AVAIL_PHRASER[format]()
@@ -73,14 +73,14 @@ def load_phrases_from_phraser(filepath: str, format: str = DEFAULT_FORMAT) -> li
     return phraser.phrases
 
 
-def load_all_phrases(files: list) -> list:
+def load_all_phrases(files: list) -> list[dict[str, str]]:
     """Load all phrases from given files.
 
     Args:
         files (list): Phrases files list.
 
     Returns:
-        list: Phrases list.
+        list[dict[str, str]]: Phrases list.
     """
     phrases = [phrase for filepath in files for phrase in load_phrases_from_phraser(filepath)]
     cit.info(f'Loaded {len(phrases)} phrases')
