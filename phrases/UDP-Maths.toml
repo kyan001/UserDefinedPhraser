@@ -138,7 +138,7 @@ inine = "𝟵"
 
 # Operators
 [[phrases]]
-iplus = "±"
+iplus = "±"  # Plus-Minus Sign (U+00B1)
 
 [[phrases]]
 iplus = "₊"
@@ -147,7 +147,7 @@ iplus = "₊"
 iplus = "⁺"
 
 [[phrases]]
-iminus = "±"
+iminus = "±"  # Plus-Minus Sign (U+00B1)
 
 [[phrases]]
 iminus = "₋"
@@ -168,16 +168,16 @@ iequal = "≤"
 iequal = "⁼"
 
 [[phrases]]
-iequal = "≠"
+iequal = "≠"  # Not Equal To (U+2260)
 
 [[phrases]]
-iequal = "≈"
+iequal = "≈"  # Almost Equal To (U+2248)
 
 [[phrases]]
-iequal = "≡"
+iequal = "≡"  # Identical To (U+2261)
 
 [[phrases]]
-itimes = "×"
+itimes = "×"  # Multiplication Sign (U+00D7): '1 × 2'
 
 [[phrases]]
 itimes = "˟"
