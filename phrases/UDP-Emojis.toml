@@ -53,6 +53,9 @@ ibox = "🔲"
 ibox = "🔘"
 
 [[phrases]]
+icoin = "🪙"  # Coin (U+1FA99)
+
+[[phrases]]
 iok = "✔"  # Heavy Check Mark
 
 [[phrases]]
@@ -71,10 +74,13 @@ iok = "🆗"  # Squared Ok
 iko = "🈲"  # Prohibited
 
 [[phrases]]
-idot = "🔹"  # Small Blue Diamond
+idot = "🔹"  # Small Blue Diamond (U+1F539)
 
 [[phrases]]
-idot = "🔸"  # Small Orange Diamond
+idot = "🔸"  # Small Orange Diamond (U+1F538)
+
+[[phrases]]
+idot = "💠"  # Diamond Shape with a Dot Inside (U+1F48E)
 
 [[phrases]]
 iempty = "🈳"
