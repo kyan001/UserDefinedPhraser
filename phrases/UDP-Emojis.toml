@@ -92,7 +92,7 @@ iplus = "➕"  # Heavy Plus Sign (U+2795)
 iminus = "➖"  # Heavy Minus Sign (U+2796)
 
 [[phrases]]
-itimes = "✖"  # Heavy Multiplication X (U+2716): ✖️ +(U+FE0F)
+itimes = "✖️"  # Heavy Multiplication X (U+2716): ✖ + (U+FE0F)
 
 [[phrases]]
 idiv = "➗"  # Heavy Division Sign (U+2797)
@@ -107,7 +107,7 @@ idolphin = "🐬"  # Dolphin (U+1F42C): Medium
 iwhale = "🐳"  # Spouting Whale (U+1F433): Large
 
 [[phrases]]
-imale = "♂️"  # ♂ (U+2642 U+FE0F)
+imale = "🚹"  # Mens Symbol (U+1F6B9)
 
 [[phrases]]
-ifemale = "♀️"  # ♀ (U+2640 U+FE0F)
+ifemale = "🚺"  # Womens Symbol (U+1F6BA)
