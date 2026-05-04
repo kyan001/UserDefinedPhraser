@@ -13,7 +13,7 @@ from phrasers.txtphraser import TxtPhraser
 from phrasers.msphraser import MsPhraser
 from phrasers.htmlphraser import HtmlPhraser
 
-__version__ = "3.1.2"
+__version__ = "3.2.0"
 
 PROJECT_DIR = cct.get_path(__file__).parent
 GENERATED_DIR = os.path.join(PROJECT_DIR, "GeneratedUDP")
@@ -92,8 +92,7 @@ def generate_files(phraser: Phraser, filename: str):
     def check_file_existance(filepath: str):
         """Check if file exists, and ask user to overwrite it or not."""
         if os.path.exists(filepath):
-            cit.ask(f"'{filepath}' is already exists. Overwrite it?")
-            if cit.get_choice(['Yes', 'No']) == 'Yes':
+            if cit.get_input(f"'{filepath}' is already exists. Overwrite it? (Yes/No)", default="Yes").lower() == "yes":
                 os.remove(filepath)
                 return True
             else:
