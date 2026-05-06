@@ -1,5 +1,5 @@
 [[phrases]]
-iemoji = "️"  # Variation Selector-16 (U+FE0F): ensure emoji presentation
+iemoji = "️"  # Variation Selector-16 (U+FE0F): Ensure Emoji Presentation
 
 [[phrases]]
 ipro = "👍"
@@ -11,13 +11,13 @@ icon = "👎"
 ilink = "🔗"  # Link Symbol (U+1F517)
 
 [[phrases]]
-ilink = "⛓"  # Chains (U+26D3): ⛓️ +(U+FE0F)
+ilink = "⛓"  # Chains (U+26D3): + (U+FE0F) = ⛓️
 
 [[phrases]]
 ianchor = "⚓"  # Anchor (U+2693)
 
 [[phrases]]
-inote = "🗒"  # Spiral Note Pad (U+1F5D2): 🗒️ +(U+FE0F)
+inote = "🗒"  # Spiral Note Pad (U+1F5D2): + (U+FE0F) = 🗒️
 
 [[phrases]]
 imemo = "📝"
@@ -29,10 +29,10 @@ ifolder = "📁"
 ipage = "📄"
 
 [[phrases]]
-imouse = "🖱"  # Three Button Mouse (U+1F5B1): 🖱️ +(U+FE0F)
+imouse = "🖱"  # Three Button Mouse (U+1F5B1): + (U+FE0F) = 🖱️
 
 [[phrases]]
-istick = "🕹"  # Joystick (U+1F579): 🕹️ +(U+FE0F)
+istick = "🕹"  # Joystick (U+1F579): + (U+FE0F) = 🕹️
 
 [[phrases]]
 igame = "🎮"  # Video Game (U+1F3AE)
@@ -41,7 +41,7 @@ igame = "🎮"  # Video Game (U+1F3AE)
 ichestnut = "🌰"  # Chestnut (U+1F330)
 
 [[phrases]]
-itag = "🏷"  # Label (U+1F3F7): 🏷️ +(U+FE0F)
+itag = "🏷"  # Label (U+1F3F7): + (U+FE0F) = 🏷️
 
 [[phrases]]
 ibookmark = "🔖"
@@ -92,7 +92,7 @@ iplus = "➕"  # Heavy Plus Sign (U+2795)
 iminus = "➖"  # Heavy Minus Sign (U+2796)
 
 [[phrases]]
-itimes = "✖️"  # Heavy Multiplication X (U+2716): ✖ + (U+FE0F)
+itimes = "✖"  # Heavy Multiplication X (U+2716): + (U+FE0F) = ✖️
 
 [[phrases]]
 idiv = "➗"  # Heavy Division Sign (U+2797)
