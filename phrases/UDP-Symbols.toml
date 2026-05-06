@@ -29,19 +29,19 @@ ibar = "｜"
 idot = "・"
 
 [[phrases]]
-iquote = "｀"  # Fullwidth
+iquote = "ˋ"  # Modifier Letter Grave Accent (U+02CB)
 
 [[phrases]]
-iquote = "′"  # Prime: feet, minutes
+iquote = "′"  # Prime: feet, minutes (U+2032)
 
 [[phrases]]
-iquote = "″"  # Double Prime: inches, seconds
+iquote = "″"  # Double Prime: inches, seconds (U+2033)
 
 [[phrases]]
 isquare = "▢"
 
 [[phrases]]
-isquare = "⬚"
+isquare = "⬚"  # Dotted Square (U+2B1A)
 
 [[phrases]]
 icircle = "◯"
