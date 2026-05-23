@@ -56,22 +56,22 @@ ibox = "🔘"
 icoin = "🪙"  # Coin (U+1FA99)
 
 [[phrases]]
-iok = "✔"  # Heavy Check Mark
+iok = "✔"  # Heavy Check Mark (U+2714): + (U+FE0F) = ✔️
 
 [[phrases]]
-iko = "❌"  # Cross Mark
+iko = "❌"  # Cross Mark (U+274C)
 
 [[phrases]]
-iok = "✅"  # White Heavy Check Mark
+iok = "✅"  # White Heavy Check Mark (U+2705)
 
 [[phrases]]
-iko = "❎"  # Negative Squared Cross Mark
+iko = "🚫"  # No Entry Sign (U+1F6AB)
 
 [[phrases]]
-iok = "🆗"  # Squared Ok
+iok = "🆗"  # Squared Ok (U+1F197)
 
 [[phrases]]
-iko = "🈲"  # Prohibited
+iko = "🈲"  # Prohibited (U+1F232)
 
 [[phrases]]
 idot = "🔹"  # Small Blue Diamond (U+1F539)
@@ -83,7 +83,7 @@ idot = "🔸"  # Small Orange Diamond (U+1F538)
 idot = "💠"  # Diamond Shape with a Dot Inside (U+1F48E)
 
 [[phrases]]
-iempty = "🈳"
+iempty = "🈳"  # Empty (U+1F233)
 
 [[phrases]]
 iplus = "➕"  # Heavy Plus Sign (U+2795)
