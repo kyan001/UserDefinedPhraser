@@ -12,7 +12,7 @@
 
 ```py
 # Quick Start
-python3 run_parser.py
+python3 user_defined_phraser.py
 ```
 
 ```sh
