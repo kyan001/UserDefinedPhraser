@@ -158,6 +158,9 @@ imusic = "𝄞"  # Gclef
 irmb = "¥"
 
 [[phrases]]
+iuec = "¤"  # Currency Sign (U+00A4): Star Citizen UEC
+
+[[phrases]]
 idc = "⎓"
 
 [[phrases]]
