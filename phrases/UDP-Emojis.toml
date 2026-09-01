@@ -98,7 +98,7 @@ itimes = "✖"  # Heavy Multiplication X (U+2716): + (U+FE0F) = ✖️
 idiv = "➗"  # Heavy Division Sign (U+2797)
 
 [[phrases]]
-ifish = "🐠"  # Tropical Fish (U+1F420): Small
+ifish = "🐟"  # Fish (U+1F41F): Small
 
 [[phrases]]
 idolphin = "🐬"  # Dolphin (U+1F42C): Medium
